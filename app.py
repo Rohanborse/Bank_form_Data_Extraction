@@ -91,7 +91,7 @@ if __name__ == "__main__":
     if not local_login():
         print("Login failed, cannot proceed.")
         exit(1)
-    pdf_path = "Bank Use Case\\sbi CA opening form.pdf"  # Replace with actual PDF path
+    pdf_path = "Bank Use Case/Account Opening1st apge.pdf"  # Replace with actual PDF path
     system_prompt = """
         You are a specialist in extracting structured data from bank account opening forms and loan account forms.
         These forms may include both printed and handwritten data. Your task is to accurately interpret all the content in the form, regardless of format or handwriting style.
