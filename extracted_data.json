@@ -1,309 +1,119 @@
-        {
+{
     "page_1": {
         "applicationType": {
             "label": "APPLICATION TYPE*",
             "value": null,
-            "notes": "No value provided.  Requires human review to determine if 'NEW' or 'UPDATE' is selected."
+            "notes": "No value provided.  Requires manual input."
         },
         "date": {
             "label": "DATE:",
             "value": null,
-            "notes": "No value provided."
+            "notes": "No value provided. Requires manual input."
         },
         "currentAccountNumber": {
             "label": "CURRENT A/C NO.",
             "value": null,
-            "notes": "No value provided."
+            "notes": "No value provided. Requires manual input."
         },
         "cifNumber": {
             "label": "CIF NO.",
             "value": null,
-            "notes": "No value provided."
+            "notes": "No value provided. Requires manual input."
         },
         "ckycNumber": {
             "label": "CKYC NUMBER (MANDATORY FOR CKYC UPDATE REQUEST):",
             "value": null,
-            "notes": "No value provided."
+            "notes": "No value provided. Requires manual input."
         },
         "accountHolderType": {
             "label": "ACCOUNT HOLDER TYPE*",
             "value": null,
-            "notes": "No value provided. Requires human review to determine if 'US REPORTABLE' or 'OTHER REPORTABLE' is selected."
+            "notes": "No value provided. Requires manual input."
         },
-        "firmDetails": {
-            "label": "1. FIRM DETAILS* (Please see General Instruction Point 'C')",
-            "fields": {
-                "nameOfTheFirm": {
-                    "label": "NAME OF THE FIRM:\n(IN BLOCK LETTERS)",
-                    "value": null,
-                    "notes": "No value provided."
-                },
-                "nameOfTheProprietor": {
-                    "label": "NAME OF THE PROPRIETOR:",
-                    "value": null,
-                    "notes": "No value provided."
-                },
-                "dateOfFormation": {
-                    "label": "DATE OF FORMATION* :",
-                    "value": null,
-                    "notes": "No value provided."
-                },
-                "pan": {
-                    "label": "PAN*:",
-                    "value": null,
-                    "notes": "No value provided."
-                },
-                "gstn": {
-                    "label": "GSTN:",
-                    "value": null,
-                    "notes": "No value provided."
-                },
-                "orForm60": {
-                    "label": "OR FORM 60",
-                    "value": null,
-                    "notes": "No value provided."
-                },
-                "placeOfFormation": {
-                    "label": "PLACE OF FORMATION*:",
-                    "value": null,
-                    "notes": "No value provided."
-                },
-                "tan": {
-                    "label": "TAN :",
-                    "value": null,
-                    "notes": "No value provided."
-                },
-                "countryOfFormation": {
-                    "label": "COUNTRY OF FORMATION*",
-                    "value": null,
-                    "notes": "No value provided. Requires human review to determine if 'IN' is selected."
-                },
-                "identificationType": {
-                    "label": "IDENTIFICATION TYPE*:",
-                    "value": null,
-                    "notes": "No value provided."
-                }
-            }
+        "nameOfTheFirm": {
+            "label": "NAME OF THE FIRM:\n(IN BLOCK LETTERS)",
+            "value": null,
+            "notes": "No value provided. Requires manual input."
+        },
+        "nameOfTheProprietor": {
+            "label": "NAME OF THE PROPRIETOR:",
+            "value": null,
+            "notes": "No value provided. Requires manual input."
+        },
+        "dateOfFormation": {
+            "label": "DATE OF FORMATION* :",
+            "value": null,
+            "notes": "No value provided. Requires manual input."
+        },
+        "placeOfFormation": {
+            "label": "PLACE OF FORMATION*:",
+            "value": null,
+            "notes": "No value provided. Requires manual input."
+        },
+        "countryOfFormation": {
+            "label": "COUNTRY OF FORMATION*",
+            "value": null,
+            "notes": "No value provided. Requires manual input."
+        },
+        "pan": {
+            "label": "PAN*:",
+            "value": null,
+            "notes": "No value provided. Requires manual input."
+        },
+        "gstn": {
+            "label": "GSTN:",
+            "value": null,
+            "notes": "No value provided. Requires manual input."
+        },
+        "tan": {
+            "label": "TAN :",
+            "value": null,
+            "notes": "No value provided. Requires manual input."
+        },
+        "identificationType": {
+            "label": "IDENTIFICATION TYPE*:",
+            "value": null,
+            "notes": "No value provided. Requires manual input."
         },
         "proofOfIdentity": {
-            "label": "2. PROOF OF IDENTITY (Pol)* (Please refer 'D' in General Instructions)",
-            "fields": {
-                "registrationCertificate": {
-                    "label": "REGISTRATION CERTIFICATE",
-                    "value": null,
-                    "notes": "No value provided. Requires human review to determine if selected."
-                },
-                "activityProof1": {
-                    "label": "ACTIVITY PROOF 1",
-                    "value": null,
-                    "notes": "No value provided."
-                },
-                "nameOfTheActivityProof1": {
-                    "label": "(NAME OF THE ACTIVITY PROOF)",
-                    "value": null,
-                    "notes": "No value provided."
-                },
-                "activityProof2": {
-                    "label": "ACTIVITY PROOF 2",
-                    "value": null,
-                    "notes": "No value provided. Requires human review to determine if selected."
-                },
-                "nameOfTheActivityProof2": {
-                    "label": "(NAME OF THE ACTIVITY PROOF)",
-                    "value": null,
-                    "notes": "No value provided."
-                },
-                "identityNumber": {
-                    "label": "IDENTITY NUMBER*:",
-                    "value": null,
-                    "notes": "No value provided."
-                },
-                "activityProofNumber": {
-                    "label": "ACTIVITY PROOF NUMBER*:",
-                    "value": null,
-                    "notes": "No value provided."
-                }
-            }
+            "label": "2. PROOF OF IDENTITY (Pol)*",
+            "value": null,
+            "notes": "Requires manual input for registration certificate, activity proof 1 and 2 details, and identity number."
         },
-        "contactDetails": {
-            "label": "3. CONTACT DETAILS (All communications will be sent on provided Mobile no./ Email- ID) (Please refer General Instruction 'F')",
-            "fields": {
-                "teleRes": {
-                    "label": "TELE (RES.):",
-                    "value": null,
-                    "notes": "No value provided."
-                },
-                "mobileNumberOfAuthorisedSignatory": {
-                    "label": "MOBILE NO. OF AUTHORISED SIGNATORY:",
-                    "value": null,
-                    "notes": "No value provided."
-                },
-                "teleOff": {
-                    "label": "TELE (OFF.):",
-                    "value": null,
-                    "notes": "No value provided."
-                },
-                "emailId": {
-                    "label": "EMAIL ID :",
-                    "value": null,
-                    "notes": "No value provided."
-                },
-                "fax": {
-                    "label": "FAX :",
-                    "value": null,
-                    "notes": "No value provided."
-                }
-            }
+        "teleRes": {
+            "label": "TELE (RES.):",
+            "value": null,
+            "notes": "No value provided. Requires manual input."
         },
-        "proofOfAddress": {
-            "label": "4. PROOF OF ADDRESS (POA)* (Copies of the document, as applicable, need to be submitted) (Please refer General Instruction 'E')",
-            "fields": {
-                "businessOfficeAddressDetails": {
-                    "label": "4.1 BUSINESS / OFFICE ADDRESS DETAILS*",
-                    "fields": {
-                        "proofOfAddress": {
-                            "label": "PROOF OF ADDRESS*:",
-                            "value": null,
-                            "notes": "No value provided. Requires human review to determine if selected."
-                        },
-                        "registrationCertificate": {
-                            "label": "REGISTRATION CERTIFICATE",
-                            "value": null,
-                            "notes": "No value provided. Requires human review to determine if selected."
-                        },
-                        "other": {
-                            "label": "OTHER",
-                            "value": null,
-                            "notes": "No value provided."
-                        },
-                        "line1": {
-                            "label": "LINE 1*:",
-                            "value": null,
-                            "notes": "No value provided."
-                        },
-                        "line2": {
-                            "label": "LINE 2:",
-                            "value": null,
-                            "notes": "No value provided."
-                        },
-                        "line3": {
-                            "label": "LINE 3:",
-                            "value": null,
-                            "notes": "No value provided."
-                        },
-                        "district": {
-                            "label": "DISTRICT*:",
-                            "value": null,
-                            "notes": "No value provided."
-                        },
-                        "stateUtName": {
-                            "label": "STATE/UT NAME*",
-                            "value": null,
-                            "notes": "No value provided."
-                        },
-                        "stateUtNameCode": {
-                            "label": "STATE/UT NAME CODE*:",
-                            "value": null,
-                            "notes": "No value provided."
-                        },
-                        "cityTownVillage": {
-                            "label": "CITY/TOWN/VILLAGE*:",
-                            "value": null,
-                            "notes": "No value provided."
-                        },
-                        "pinPostCode": {
-                            "label": "PIN/POST CODE*:",
-                            "value": null,
-                            "notes": "No value provided."
-                        },
-                        "countryCode": {
-                            "label": "COUNTRY CODE*:",
-                            "value": null,
-                            "notes": "No value provided."
-                        },
-                        "country": {
-                            "label": "COUNTRY *:",
-                            "value": null,
-                            "notes": "No value provided."
-                        }
-                    }
-                },
-                "correspondenceLocalAddressDetails": {
-                    "label": "4.2 CORRESPONDENCE / LOCAL ADDRESS DETAILS *",
-                    "fields": {
-                        "sameAsBusinessOfficeAddressDetails": {
-                            "label": "SAME AS BUSINESS / OFFICE ADDRESS DETAILS*",
-                            "value": null,
-                            "notes": "No value provided. Requires human review to determine if selected."
-                        },
-                        "proofOfAddress": {
-                            "label": "PROOF OF ADDRESS*:",
-                            "value": null,
-                            "notes": "No value provided. Requires human review to determine if selected."
-                        },
-                        "registrationCertificate": {
-                            "label": "REGISTRATION CERTIFICATE",
-                            "value": null,
-                            "notes": "No value provided. Requires human review to determine if selected."
-                        },
-                        "other": {
-                            "label": "OTHER",
-                            "value": null,
-                            "notes": "No value provided."
-                        },
-                        "line1": {
-                            "label": "LINE 1*:",
-                            "value": null,
-                            "notes": "No value provided."
-                        },
-                        "line2": {
-                            "label": "LINE 2:",
-                            "value": null,
-                            "notes": "No value provided."
-                        },
-                        "line3": {
-                            "label": "LINE 3:",
-                            "value": null,
-                            "notes": "No value provided."
-                        },
-                        "district": {
-                            "label": "DISTRICT*:",
-                            "value": null,
-                            "notes": "No value provided."
-                        },
-                        "stateUtName": {
-                            "label": "STATE/UT NAME*",
-                            "value": null,
-                            "notes": "No value provided."
-                        },
-                        "stateUtNameCode": {
-                            "label": "STATE/UT NAME CODE*:",
-                            "value": null,
-                            "notes": "No value provided."
-                        },
-                        "cityTownVillage": {
-                            "label": "CITY / TOWN / VILLAGE*:",
-                            "value": null,
-                            "notes": "No value provided."
-                        },
-                        "pinPostCode": {
-                            "label": "PIN / POST CODE*:",
-                            "value": null,
-                            "notes": "No value provided."
-                        },
-                        "countryCode": {
-                            "label": "COUNTRY CODE*:",
-                            "value": null,
-                            "notes": "No value provided."
-                        },
-                        "country": {
-                            "label": "COUNTRY *:",
-                            "value": null,
-                            "notes": "No value provided."
-                        }
-                    }
-                }
-            }
+        "teleOff": {
+            "label": "TELE (OFF.):",
+            "value": null,
+            "notes": "No value provided. Requires manual input."
+        },
+        "mobileNoOfAuthorisedSignatory": {
+            "label": "MOBILE NO. OF AUTHORISED SIGNATORY:",
+            "value": null,
+            "notes": "No value provided. Requires manual input."
+        },
+        "emailId": {
+            "label": "EMAIL ID :",
+            "value": null,
+            "notes": "No value provided. Requires manual input."
+        },
+        "fax": {
+            "label": "FAX :",
+            "value": null,
+            "notes": "No value provided. Requires manual input."
+        },
+        "proofOfAddressBusiness": {
+            "label": "4.1 BUSINESS / OFFICE ADDRESS DETAILS*",
+            "value": null,
+            "notes": "Requires manual input for proof of address, line 1, 2, 3, district, state/ut name, state/ut name code, city/town/village, pin/post code, and country code."
+        },
+        "correspondenceAddress": {
+            "label": "4.2 CORRESPONDENCE / LOCAL ADDRESS DETAILS *",
+            "value": null,
+            "notes": "Requires manual input for proof of address, line 1, 2, 3, district, state/ut name, state/ut name code, city/town/village, pin/post code, and country code."
         }
     },
     "page_2": {
@@ -319,18 +129,18 @@
             "ANNUAL TURNOVER*: RS.": null,
             "FY": null,
             "CODE": null,
-            "SECTOR": null,
-            "SOURCES OF FUND:": {
-                "BUSINESS INCOME": true,
-                "DONATION / GRANT": false,
-                "FROM GROUP COMPANY": false,
-                "EQUITY INVESTMENT": false,
-                "OTHER": false
-            },
-            "MLM UNDERTAKING:": {
-                "I Declare that my Proprietorship Firm is not a MLM (Multi Level Marketing) Firm": null,
-                "I Declare that my Proprietorship Firm is a MLM (Multi Level Marketing) Firm": null
-            }
+            "SECTOR": null
+        },
+        "SOURCES OF FUND:": {
+            "BUSINESS INCOME": true,
+            "DONATION / GRANT": false,
+            "FROM GROUP COMPANY": false,
+            "EQUITY INVESTMENT": false,
+            "OTHER": false
+        },
+        "MLM UNDERTAKING:": {
+            "I Declare that my Proprietorship Firm is not a MLM (Multi Level Marketing) Firm": true,
+            "I Declare that my Proprietorship Firm is a MLM (Multi Level Marketing) Firm": false
         },
         "6. ACCOUNT VARIANT": {
             "Regular Current Account (MAB - Rs. 5,000/-)": false,
@@ -341,99 +151,217 @@
         },
         "7. SERVICES REQUIRED": {
             "CORPORATE INTERNET BANKING:": {
-                "VIEWING RIGHTS": null,
-                "TRANSACTION RIGHTS": null
+                "VIEWING RIGHTS": true,
+                "TRANSACTION RIGHTS": true
             },
             "BUSINESS DEBIT CARD:": {
-                "PRIDE": null,
-                "PREMIUM": null
+                "PRIDE": true,
+                "PREMIUM": false
             },
             "CASH MGMT PRODUCTS": {
-                "viz CASH PICK UP": null,
-                "e-COLLECTION": null,
-                "e-PAYMENT": null
+                "viz CASH PICK UP": true,
+                "e-COLLECTION": true,
+                "e-PAYMENT": true
             },
-            "POS FACILITY (CARD SWIPING MACHINE)": null,
-            "CHEQUE BOOK": null,
-            "UPI/QR CODE": null,
-            "SMS ALERTS": null,
-            "E-HAND SHAKE INSTA DEPOSIT CARD": null,
-            "DO YOU WISH TO REGISTER FOR POSITIVE PAY SYSTEM:": "YES"
+            "POS FACILITY (CARD SWIPING MACHINE)": true,
+            "CHEQUE BOOK": true,
+            "UPI/QR CODE": true,
+            "SMS ALERTS": true,
+            "E-HAND SHAKE INSTA DEPOSIT CARD": true
         },
+        "DO YOU WISH TO REGISTER FOR POSITIVE PAY SYSTEM:": "YES",
         "8. MODE OF OPERATION": {
-            "SINGLY": null,
+            "SINGLY": false,
             "OTHERS: (PLEASE SPECIFY)": null
         },
         "9. COUNTRY OF RESIDENCE AS PER TAX LAWS *": {
-            "FINANCIAL INSTITUTION (FI)": null,
-            "NON FINANCIAL ENTITY (NFE)": null,
+            "FINANCIAL INSTITUTION (FI)": false,
+            "NON FINANCIAL ENTITY (NFE)": true,
             "ACTIVE NFE OR PASSIVE NFE": null,
-            "TAX RESIDENT OF INDIA ONLY AND NOT OF ANY OTHER COUNTRY OUTSIDE INDIA": null
+            "TAX RESIDENT OF INDIA ONLY AND NOT OF ANY OTHER COUNTRY OUTSIDE INDIA": true
         },
         "Signature of the Declarant": null
     },
     "page_3": {
         "form_details": {
-            "form_number": "60",
-            "form_name": "IN CASE PAN IS NOT AVAILABLE",
-            "name": null,
-            "note_name": "Illegible",
-            "same_as_id_proof": null,
-            "note_same_as_id_proof": "Illegible",
-            "if_applied_for_pan_and_it_is_not_yet_generated_enter_date_of_application": null,
-            "note_date_of_application": "Illegible",
-            "acknowledgement_number": null,
-            "note_acknowledgement_number": "Illegible",
-            "if_pan_is_not_applied_fill_estimated_total_income_including_income_of_spouse_minor_child_etc_as_per_section_64_of_income_tax_act_1961_for_financial_year_in_which_the_above_transaction_is_held": null,
-            "note_income": "Illegible",
-            "agriculture_income_rs": null,
-            "note_agriculture_income": "Illegible",
-            "other_than_agricultural_income": null,
-            "note_other_income": "Illegible",
-            "verified_today_the": null,
-            "note_verified_date": "Illegible",
-            "place": null,
-            "note_place": "Illegible",
-            "signature_of_the_declarant": null,
-            "note_signature_declarant": "Illegible",
-            "declaration_cum_undertaking_for_opening_continuing_current_account": null,
-            "name_of_the_customer": null,
-            "note_customer_name": "Illegible",
-            "bank_name": {
-                "sbi": null,
-                "bank1": null,
-                "bank2": null,
-                "total": null
-            },
-            "total_exposure": null,
-            "fund_based_cc_od": null,
-            "fund_based_like_tl_dl": null,
-            "non_fund_based_like_lc_bg": null,
-            "rs_exposure": null,
-            "total_credit_exposure": null,
-            "less_than_rs_5_crs": false,
-            "rs_5_crs": false,
-            "exempted_category": false,
-            "name_of_the_customer_2": null,
-            "note_customer_name_2": "Illegible",
-            "signature_of_the_customer_s_authorised_representative_s": null,
-            "note_signature_customer": "Illegible",
-            "acknowledgement_da_1": null,
-            "name_of_the_nominee": null,
-            "note_nominee_name": "Illegible",
-            "with_respect_to_your_account_number": null,
-            "note_account_number": "Illegible",
-            "registration_no": null,
-            "note_registration_no": "Illegible",
-            "date": null,
-            "note_date": "Illegible",
-            "age": null,
-            "note_age": "Illegible",
-            "years": null,
-            "note_years": "Illegible",
-            "yours_faithfully": null,
-            "signature_of_bank_official_with_seal": null,
-            "note_bank_official_signature": "Illegible"
+            "form_name": "FORM - 60 (IN CASE PAN IS NOT AVAILABLE)",
+            "form_sections": [
+                {
+                    "section_title": "Personal Information",
+                    "fields": [
+                        {
+                            "label": "NAME:",
+                            "value": null,
+                            "notes": "Value is missing from the image."
+                        },
+                        {
+                            "label": "(SAME AS ID PROOF)",
+                            "value": null,
+                            "notes": "This is a label, not a field with a value."
+                        },
+                        {
+                            "label": "IF APPLIED FOR PAN AND IT IS NOT YET GENERATED, ENTER DATE OF APPLICATION",
+                            "value": null,
+                            "notes": "Value is missing from the image."
+                        },
+                        {
+                            "label": "& THE ACKNOWLEDGEMENT NUMBER",
+                            "value": null,
+                            "notes": "Value is missing from the image."
+                        },
+                        {
+                            "label": "IF PAN IS NOT APPLIED, FILL ESTIMATED TOTAL INCOME (INCLUDING INCOME OF SPOUSE, MINOR CHILD, ETC) AS PER SECTION 64 OF INCOME TAX ACT 1961 FOR FINANCIAL YEAR IN WHICH THE ABOVE TRANSACTION IS HELD",
+                            "value": null,
+                            "notes": "This is a label, not a field with a value.  It describes instructions for filling out income information."
+                        },
+                        {
+                            "label": "AGRICULTURE INCOME (RS)",
+                            "value": null,
+                            "notes": "Value is missing from the image."
+                        },
+                        {
+                            "label": "OTHER THAN AGRICULTURAL INCOME",
+                            "value": null,
+                            "notes": "Value is missing from the image."
+                        }
+                    ]
+                },
+                {
+                    "section_title": "Verification",
+                    "fields": [
+                        {
+                            "label": "Verified today, the",
+                            "value": null,
+                            "notes": "Date is missing from the image."
+                        },
+                        {
+                            "label": "Place:",
+                            "value": null,
+                            "notes": "Value is missing from the image."
+                        },
+                        {
+                            "label": "Signature of the Declarant",
+                            "value": null,
+                            "notes": "Value is missing from the image."
+                        }
+                    ]
+                },
+                {
+                    "section_title": "Declaration Cum Undertaking for Opening / Continuing Current Account",
+                    "fields": [
+                        {
+                            "label": "Name of the Customer:",
+                            "value": null,
+                            "notes": "Value is missing from the image."
+                        },
+                        {
+                            "label": "Bank Name",
+                            "value": null,
+                            "notes": "Values for SBI, Bank1, Bank2, and Total are missing from the image."
+                        },
+                        {
+                            "label": "Total Exposure",
+                            "value": null,
+                            "notes": "Values for SBI, Bank1, Bank2, and Total are missing from the image."
+                        },
+                        {
+                            "label": "Fund Based CC/OD",
+                            "value": null,
+                            "notes": "Values for SBI, Bank1, Bank2, and Total are missing from the image."
+                        },
+                        {
+                            "label": "Fund based (like TL/DL)",
+                            "value": null,
+                            "notes": "Values for SBI, Bank1, Bank2, and Total are missing from the image."
+                        },
+                        {
+                            "label": "Non-Fund based (like LC/BG)",
+                            "value": null,
+                            "notes": "Values for SBI, Bank1, Bank2, and Total are missing from the image."
+                        },
+                        {
+                            "label": "Rs. Exposure %",
+                            "value": null,
+                            "notes": "Values for SBI, Bank1, Bank2, and Total are missing from the image."
+                        },
+                        {
+                            "label": "TOTAL CREDIT EXPOSURE :",
+                            "value": null,
+                            "notes": "No value provided, checkboxes are present for options."
+                        },
+                        {
+                            "label": "LESS THAN RS. 5 CRS",
+                            "value": null,
+                            "notes": "Checkbox value is missing from the image."
+                        },
+                        {
+                            "label": "> RS. 5 CRS",
+                            "value": null,
+                            "notes": "Checkbox value is missing from the image."
+                        },
+                        {
+                            "label": "EXEMPTED CATEGORY",
+                            "value": null,
+                            "notes": "Checkbox value is missing from the image."
+                        },
+                        {
+                            "label": "(Name of the Customer)",
+                            "value": null,
+                            "notes": "Value is missing from the image."
+                        },
+                        {
+                            "label": "Signature of the Customer(s) / Authorised Representative(s)",
+                            "value": null,
+                            "notes": "Value is missing from the image."
+                        }
+                    ]
+                },
+                {
+                    "section_title": "Acknowledgement DA-1",
+                    "fields": [
+                        {
+                            "label": "Name of the Nominee",
+                            "value": null,
+                            "notes": "Value is missing from the image."
+                        },
+                        {
+                            "label": "With respect to your Account Number",
+                            "value": null,
+                            "notes": "Value is missing from the image."
+                        },
+                        {
+                            "label": "Registration No.",
+                            "value": null,
+                            "notes": "Value is missing from the image."
+                        },
+                        {
+                            "label": "Date:",
+                            "value": null,
+                            "notes": "Value is missing from the image."
+                        },
+                        {
+                            "label": "Age:",
+                            "value": null,
+                            "notes": "Value is missing from the image."
+                        },
+                        {
+                            "label": "Years",
+                            "value": null,
+                            "notes": "Value is missing from the image."
+                        },
+                        {
+                            "label": "Yours faithfully",
+                            "value": null,
+                            "notes": "This is a label, not a field with a value."
+                        },
+                        {
+                            "label": "Signature of Bank Official with Seal",
+                            "value": null,
+                            "notes": "Value is missing from the image."
+                        }
+                    ]
+                }
+            ]
         }
     },
     "page_4": {
@@ -442,37 +370,37 @@
                 {
                     "label": "SIGNATURE OF PROPRIETOR",
                     "value": null,
-                    "notes": "Handwritten signature; cannot be transcribed."
+                    "notes": "Signature field; no data provided in the image."
                 },
                 {
                     "label": "NAME:",
                     "value": null,
-                    "notes": "Handwritten; illegible."
+                    "notes": "Name field; no data provided in the image."
                 },
                 {
                     "label": "DATE:",
                     "value": null,
-                    "notes": "Handwritten; illegible."
+                    "notes": "Date field; no data provided in the image."
                 },
                 {
                     "label": "OFFICER (SIGNATURE)",
                     "value": null,
-                    "notes": "Handwritten signature; cannot be transcribed."
+                    "notes": "Signature field; no data provided in the image."
                 },
                 {
                     "label": "NAME:",
                     "value": null,
-                    "notes": "Handwritten; illegible."
+                    "notes": "Name field; no data provided in the image."
                 },
                 {
                     "label": "PF No.:",
                     "value": null,
-                    "notes": "Handwritten; illegible."
+                    "notes": "PF Number field; no data provided in the image."
                 },
                 {
                     "label": "SS No.:",
                     "value": null,
-                    "notes": "Handwritten; illegible."
+                    "notes": "Social Security Number field; no data provided in the image."
                 }
             ]
         },
@@ -544,7 +472,7 @@
                     "CIF NUMBER:": null
                 },
                 "OPEN THE ACCOUNT": {
-                    "BRANCH MANAGER/ AUTHORISED OFFICIAL": null,
+                    "BRANCH MANAGER/AUTHORISED OFFICIAL": null,
                     "ACCOUNT OPENED ON:": null,
                     "REMARKS (IF ANY):": null,
                     "ACCOUNT NUMBER:": null
@@ -644,7 +572,7 @@
         "7.Name of *": {
             "label": "7.Name of *",
             "value": null,
-            "notes": "No value provided.  Field indicates selection of Father, Mother, or Spouse."
+            "notes": "No value provided."
         },
         "8. Name of Guardian": {
             "label": "8. Name of Guardian",
@@ -661,13 +589,18 @@
             "value": null,
             "notes": "No value selected."
         },
+        "Country Name": {
+            "label": "Country Name",
+            "value": null,
+            "notes": "No value provided."
+        },
         "10.Citizenship:": {
             "label": "10.Citizenship:",
             "value": null,
             "notes": "No value provided."
         },
-        "11.Occupation Type": {
-            "label": "11.Occupation Type",
+        "*11.Occupation Type": {
+            "label": "*11.Occupation Type",
             "value": null,
             "notes": "No value selected."
         },
@@ -711,13 +644,18 @@
             "value": null,
             "notes": "No value selected."
         },
+        "If yes,": {
+            "label": "If yes,",
+            "value": null,
+            "notes": "No value provided."
+        },
         "19. Educational Qualification:": {
             "label": "19. Educational Qualification:",
             "value": null,
             "notes": "No value selected."
         },
-        "20. Please Tick the Applicable box*": {
-            "label": "20. Please Tick the Applicable box*",
+        "20. Please Tick the Applicable box*:": {
+            "label": "20. Please Tick the Applicable box*:",
             "value": null,
             "notes": "No value selected."
         },
@@ -748,16 +686,6 @@
         },
         "Tel. (Res):": {
             "label": "Tel. (Res):",
-            "value": null,
-            "notes": "No value provided."
-        },
-        "Country Name": {
-            "label": "Country Name",
-            "value": null,
-            "notes": "No value provided."
-        },
-        "Designation/Profession:": {
-            "label": "Designation/Profession:",
             "value": null,
             "notes": "No value provided."
         }
@@ -975,67 +903,69 @@
                     "value": null,
                     "notes": "No value provided"
                 },
-                "DOCUMENTS RECEIVED:": {
-                    "value": null,
-                    "notes": "No value provided"
-                },
-                "SELF-CERTIFIED": {
-                    "value": null,
-                    "notes": "No value provided"
-                },
-                "TRUE COPIES": {
-                    "value": null,
-                    "notes": "No value provided"
-                },
-                "NOTARY": {
-                    "value": null,
-                    "notes": "No value provided"
-                },
-                "RISK CATEGORY:": {
-                    "HIGH": {
+                "ATTESTATION / FOR OFFICE USE ONLY": {
+                    "DOCUMENTS RECEIVED:": {
                         "value": null,
                         "notes": "No value provided"
                     },
-                    "MEDIUM": {
+                    "SELF-CERTIFIED": {
                         "value": null,
                         "notes": "No value provided"
                     },
-                    "LOW": {
+                    "TRUE COPIES": {
+                        "value": null,
+                        "notes": "No value provided"
+                    },
+                    "NOTARY": {
+                        "value": null,
+                        "notes": "No value provided"
+                    },
+                    "RISK CATEGORY:": {
+                        "HIGH": {
+                            "value": null,
+                            "notes": "No value provided"
+                        },
+                        "MEDIUM": {
+                            "value": null,
+                            "notes": "No value provided"
+                        },
+                        "LOW": {
+                            "value": null,
+                            "notes": "No value provided"
+                        }
+                    },
+                    "IN PERSON VERIFICATION CARRIED OUT (IDENTITY VERIFICATION)": {
+                        "value": null,
+                        "notes": "No value provided"
+                    },
+                    "DONE": {
+                        "value": null,
+                        "notes": "No value provided"
+                    },
+                    "DATE:": {
+                        "value": null,
+                        "notes": "No value provided"
+                    },
+                    "EMP./OFFICIAL SIGNATURE": {
+                        "value": null,
+                        "notes": "No value provided"
+                    },
+                    "S.S No. / P.F No.:": {
+                        "value": null,
+                        "notes": "No value provided"
+                    },
+                    "EMP./OFF. DESIGNATION:": {
+                        "value": null,
+                        "notes": "No value provided"
+                    },
+                    "EMP./OFF. NAME:": {
+                        "value": null,
+                        "notes": "No value provided"
+                    },
+                    "EMP./OFF. BRANCH:": {
                         "value": null,
                         "notes": "No value provided"
                     }
-                },
-                "IN PERSON VERIFICATION CARRIED OUT (IDENTITY VERIFICATION)": {
-                    "value": null,
-                    "notes": "No value provided"
-                },
-                "DONE": {
-                    "value": null,
-                    "notes": "No value provided"
-                },
-                "DATE:": {
-                    "value": null,
-                    "notes": "No value provided"
-                },
-                "EMP./OFFICIAL SIGNATURE": {
-                    "value": null,
-                    "notes": "No value provided"
-                },
-                "S.S No. / P.F No.:": {
-                    "value": null,
-                    "notes": "No value provided"
-                },
-                "EMP./OFF. DESIGNATION:": {
-                    "value": null,
-                    "notes": "No value provided"
-                },
-                "EMP./OFF. NAME:": {
-                    "value": null,
-                    "notes": "No value provided"
-                },
-                "EMP./OFF. BRANCH:": {
-                    "value": null,
-                    "notes": "No value provided"
                 }
             }
         }
@@ -1045,7 +975,7 @@
             "Name of the Customer": null,
             "My / Our Credit Exposure": [
                 {
-                    "Sl. No.": "3a.",
+                    "SI. No.": "3a.",
                     "i)": "Total Credit exposure Rs.5 Crores or more",
                     "ii)": "SBI exposure 10% or more",
                     "iii)": "SBI having CC/OD Account",
@@ -1053,7 +983,7 @@
                     "My / Our request": "I/We willing to have an Operative Current Account with SBI"
                 },
                 {
-                    "Sl. No.": "3b.",
+                    "SI. No.": "3b.",
                     "i)": "Total Credit exposure Rs. 5 Crore or more",
                     "ii)": "SBI exposure 10% or more (or) Exposure 10% or less",
                     "iii)": "Customer having CC/OD Account with any Bank, which may or may not include SBI.",
@@ -1061,14 +991,14 @@
                     "My / Our request": "I/We am willing to have a *collection account with SBI."
                 },
                 {
-                    "Sl. No.": "3c.",
+                    "SI. No.": "3c.",
                     "i)": "Total Credit exposure Rs. 5 Crores or more",
                     "ii)": "SBI exposure less than 10% with CC/OD facility and is the highest amongst all the lenders.",
                     "iii)": "No other bank has exposure 10% or more",
                     "My / Our request": "I/We willing to have an Operative Current Account with SBI."
                 },
                 {
-                    "Sl. No.": "3d.",
+                    "SI. No.": "3d.",
                     "i)": "Total Credit exposure Rs. 5 Crores or more",
                     "ii)": "SBI exposure 10% or more without CC/OD",
                     "iii)": "SBI is one of the lenders.",
@@ -1076,19 +1006,19 @@
                     "My / Our request": "I/We am willing to have a *collection account with SBI."
                 },
                 {
-                    "Sl. No.": "4a",
+                    "SI. No.": "4a",
                     "i)": "Total credit exposure Rs.5 crores or more but less than Rs.50 crore, without CC/OD exposure from any Bank",
                     "ii)": "SBI is one of lending Bank",
                     "My / Our request": "I/We am willing to have an Operative Current Account with SBI"
                 },
                 {
-                    "Sl. No.": "4b",
+                    "SI. No.": "4b",
                     "i)": "Total credit exposure Rs.5 crore or more but less than Rs.50 crore, without CC/OD exposure from any Bank",
                     "ii)": "SBI is not one of lending Bank",
                     "My / Our request": "I/We am willing to have a *collection account with SBI."
                 },
                 {
-                    "Sl. No.": "5",
+                    "SI. No.": "5",
                     "i)": "Total credit exposure Rs. 50 crores or more without CC/OD exposure from any Bank",
                     "ii)": "SBI one of lending Bank",
                     "My / Our request": "I/We am willing to have Current account (under the prescribed Escrow mechanism) / *collection account with SBI (strike whichever not applicable). I understand that Current account can be opened/ maintained with the escrow managing bank only."
@@ -1104,7 +1034,7 @@
     "page_9": {
         "Declaration for Opening/Continuing Current Account": {
             "Name of the Customer": "null",
-            "Notes": "Name of the Customer field is not filled in the provided text."
+            "Notes": "Name of the Customer field is not populated in the provided text."
         },
         "My / Our Credit Exposure": [
             {
@@ -1179,118 +1109,133 @@
             "TAX RESIDENT OF US": {
                 "label": "TAX RESIDENT OF US",
                 "value": null,
-                "notes": "No value provided.  Requires image analysis to determine if 'YES' or 'NO' is selected."
+                "notes": "No value provided.  Requires visual inspection of the form."
             },
             "US TIN": {
                 "label": "US TIN",
                 "value": null,
-                "notes": "No value provided.  Field is blank."
+                "notes": "No value provided. Requires visual inspection of the form."
             },
             "IF TAX RESIDENT OF US, WHETHER THE PERSON IS": {
                 "A US PERSON": {
                     "label": "A US PERSON",
                     "value": null,
-                    "notes": "No value provided. Requires image analysis to determine if 'YES' or 'NO' is selected."
+                    "notes": "No value provided. Requires visual inspection of the form."
                 },
-                "A SPECIFIED US PERSON": {
-                    "label": "A SPECIFIED US PERSON",
+                "A SPECIFIED US PERSON (SEE INSTRUCTION \"K\")": {
+                    "label": "A SPECIFIED US PERSON (SEE INSTRUCTION \"K\")",
                     "value": null,
-                    "notes": "No value provided. Requires image analysis to determine if 'YES' or 'NO' is selected."
+                    "notes": "No value provided. Requires visual inspection of the form."
                 }
             },
             "TAX RESIDENT OUTSIDE INDIA OTHER THAN US": {
                 "label": "TAX RESIDENT OUTSIDE INDIA OTHER THAN US",
                 "value": null,
-                "notes": "No value provided. Requires image analysis to determine if 'YES' or 'NO' is selected."
+                "notes": "No value provided. Requires visual inspection of the form."
             },
             "COUNTRY CODE": {
                 "label": "COUNTRY CODE",
                 "value": null,
-                "notes": "No value provided. Field is blank."
+                "notes": "No value provided. Requires visual inspection of the form."
             },
             "TIN/FUNCTIONAL EQUIVALENT": {
                 "label": "& TIN/FUNCTIONAL EQUIVALENT",
                 "value": null,
-                "notes": "No value provided. Field is blank."
+                "notes": "No value provided. Requires visual inspection of the form."
             },
-            "IF TAX RESIDENT OUTSIDE INDIA & OTHER THAN US IS \"YES\", WHETHER ENTITY FALLS IN ANY OF THE FOLLOWING CATEGORY": {
+            "IF TAX RESIDENT OUTSIDE INDIA & OTHER THAN US IS \"YES\", WHETHER ENTITY FALLS IN ANY OF THE FOLLOWING CATEGORY (TICK FROM FOLLOWING CATEGORY)": {
                 "I. ANY CORPORATION THE STOCK OF WHICH IS REGULARLY TRADED ON ONE OR MORE ESTABLISHED SECURITIES MARKET": {
                     "label": "I. ANY CORPORATION THE STOCK OF WHICH IS REGULARLY TRADED ON ONE OR MORE ESTABLISHED SECURITIES MARKET",
                     "value": null,
-                    "notes": "No value provided. Requires image analysis to determine if 'YES' or 'NO' is selected."
+                    "notes": "No value provided. Requires visual inspection of the form."
                 },
                 "II. ANY CORPORATION THAT IS A RELATED ENTITY OF A CORPORATION DESCRIBED IN (I) ABOVE": {
                     "label": "II. ANY CORPORATION THAT IS A RELATED ENTITY OF A CORPORATION DESCRIBED IN (I) ABOVE",
                     "value": null,
-                    "notes": "No value provided. Requires image analysis to determine if 'YES' or 'NO' is selected."
+                    "notes": "No value provided. Requires visual inspection of the form."
                 },
                 "III. A GOVERNMENTAL ENTITY": {
                     "label": "III. A GOVERNMENTAL ENTITY",
                     "value": null,
-                    "notes": "No value provided. Requires image analysis to determine if 'YES' or 'NO' is selected."
+                    "notes": "No value provided. Requires visual inspection of the form."
                 },
                 "IV. AN INTERNATIONAL ORGANIZATION": {
                     "label": "IV. AN INTERNATIONAL ORGANIZATION",
                     "value": null,
-                    "notes": "No value provided. Requires image analysis to determine if 'YES' or 'NO' is selected."
+                    "notes": "No value provided. Requires visual inspection of the form."
                 },
                 "V. A CENTRAL BANK": {
                     "label": "V. A CENTRAL BANK",
                     "value": null,
-                    "notes": "No value provided. Requires image analysis to determine if 'YES' or 'NO' is selected."
+                    "notes": "No value provided. Requires visual inspection of the form."
                 },
                 "VI. A FINANCIAL INSTITUTION": {
                     "label": "VI. A FINANCIAL INSTITUTION",
                     "value": null,
-                    "notes": "No value provided. Requires image analysis to determine if 'YES' or 'NO' is selected."
+                    "notes": "No value provided. Requires visual inspection of the form."
                 },
                 "NO RESIDENCE FOR TAX PURPOSE": {
                     "label": "NO RESIDENCE FOR TAX PURPOSE",
                     "value": null,
-                    "notes": "No value provided. Requires image analysis to determine if 'YES' or 'NO' is selected."
+                    "notes": "No value provided. Requires visual inspection of the form."
                 }
             },
             "MULTIPLE TAX RESIDENCY": {
                 "label": "MULTIPLE TAX RESIDENCY",
                 "value": null,
-                "notes": "No value provided. Requires image analysis to determine if 'YES' or 'NO' is selected."
+                "notes": "No value provided. Requires visual inspection of the form."
             },
             "ADDRESS": {
                 "LINE 1": {
                     "label": "LINE 1",
                     "value": null,
-                    "notes": "No value provided. Field is blank."
+                    "notes": "No value provided. Requires visual inspection of the form."
                 },
                 "LINE 2": {
                     "label": "LINE 2",
                     "value": null,
-                    "notes": "No value provided. Field is blank."
+                    "notes": "No value provided. Requires visual inspection of the form."
                 },
                 "LINE 3": {
                     "label": "LINE 3",
                     "value": null,
-                    "notes": "No value provided. Field is blank."
+                    "notes": "No value provided. Requires visual inspection of the form."
                 },
                 "CITY": {
                     "label": "CITY",
                     "value": null,
-                    "notes": "No value provided. Field is blank."
+                    "notes": "No value provided. Requires visual inspection of the form."
                 },
                 "STATE": {
                     "label": "STATE",
                     "value": null,
-                    "notes": "No value provided. Field is blank."
+                    "notes": "No value provided. Requires visual inspection of the form."
                 },
                 "PIN": {
                     "label": "PIN",
                     "value": null,
-                    "notes": "No value provided. Field is blank."
+                    "notes": "No value provided. Requires visual inspection of the form."
                 }
+            },
+            "COUNTRY OF TAX RESIDENCE OUTSIDE INDIA OTHER THAN US": {
+                "label": "COUNTRY OF TAX RESIDENCE OUTSIDE INDIA OTHER THAN US",
+                "value": null,
+                "notes": "No value provided. Requires visual inspection of the form."
+            },
+            "TAX IDENTIFICATION NUMBER OR EQUIVALENT, IF ISSUED BY JURISDICTION": {
+                "label": "TAX IDENTIFICATION NUMBER OR EQUIVALENT, IF ISSUED BY JURISDICTION",
+                "value": null,
+                "notes": "No value provided. Requires visual inspection of the form."
+            },
+            "IDENTIFICATION TYPE (TIN, COMPANY IDENTIFICATION NUMBER (CIN), EIN OR OTHER, PLEASE SPECIFY)": {
+                "label": "IDENTIFICATION TYPE (TIN, COMPANY IDENTIFICATION NUMBER (CIN), EIN OR OTHER, PLEASE SPECIFY)",
+                "value": null,
+                "notes": "No value provided. Requires visual inspection of the form."
             },
             "Signature of Declarant": {
                 "label": "Signature of Declarant",
                 "value": null,
-                "notes": "No value provided. Field is blank."
+                "notes": "No value provided. Requires visual inspection of the form."
             }
         }
     },

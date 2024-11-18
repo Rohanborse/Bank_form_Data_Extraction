@@ -2,8 +2,7 @@ import os
 import json
 from pdf2image import convert_from_path
 import google.generativeai as genai
-
-from app_2 import local_login
+from Log_Cred import local_login
 
 # Configure Google Gemini API
 genai.configure(api_key="AIzaSyCP6JZiT1SCjT7d0R1WHwS6mt7BO3btvcs")
