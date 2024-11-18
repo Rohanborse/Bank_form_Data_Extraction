@@ -1,0 +1,1477 @@
+        {
+    "page_1": {
+        "applicationType": {
+            "label": "APPLICATION TYPE*",
+            "value": null,
+            "notes": "No value provided.  Requires human review to determine if 'NEW' or 'UPDATE' is selected."
+        },
+        "date": {
+            "label": "DATE:",
+            "value": null,
+            "notes": "No value provided."
+        },
+        "currentAccountNumber": {
+            "label": "CURRENT A/C NO.",
+            "value": null,
+            "notes": "No value provided."
+        },
+        "cifNumber": {
+            "label": "CIF NO.",
+            "value": null,
+            "notes": "No value provided."
+        },
+        "ckycNumber": {
+            "label": "CKYC NUMBER (MANDATORY FOR CKYC UPDATE REQUEST):",
+            "value": null,
+            "notes": "No value provided."
+        },
+        "accountHolderType": {
+            "label": "ACCOUNT HOLDER TYPE*",
+            "value": null,
+            "notes": "No value provided. Requires human review to determine if 'US REPORTABLE' or 'OTHER REPORTABLE' is selected."
+        },
+        "firmDetails": {
+            "label": "1. FIRM DETAILS* (Please see General Instruction Point 'C')",
+            "fields": {
+                "nameOfTheFirm": {
+                    "label": "NAME OF THE FIRM:\n(IN BLOCK LETTERS)",
+                    "value": null,
+                    "notes": "No value provided."
+                },
+                "nameOfTheProprietor": {
+                    "label": "NAME OF THE PROPRIETOR:",
+                    "value": null,
+                    "notes": "No value provided."
+                },
+                "dateOfFormation": {
+                    "label": "DATE OF FORMATION* :",
+                    "value": null,
+                    "notes": "No value provided."
+                },
+                "pan": {
+                    "label": "PAN*:",
+                    "value": null,
+                    "notes": "No value provided."
+                },
+                "gstn": {
+                    "label": "GSTN:",
+                    "value": null,
+                    "notes": "No value provided."
+                },
+                "orForm60": {
+                    "label": "OR FORM 60",
+                    "value": null,
+                    "notes": "No value provided."
+                },
+                "placeOfFormation": {
+                    "label": "PLACE OF FORMATION*:",
+                    "value": null,
+                    "notes": "No value provided."
+                },
+                "tan": {
+                    "label": "TAN :",
+                    "value": null,
+                    "notes": "No value provided."
+                },
+                "countryOfFormation": {
+                    "label": "COUNTRY OF FORMATION*",
+                    "value": null,
+                    "notes": "No value provided. Requires human review to determine if 'IN' is selected."
+                },
+                "identificationType": {
+                    "label": "IDENTIFICATION TYPE*:",
+                    "value": null,
+                    "notes": "No value provided."
+                }
+            }
+        },
+        "proofOfIdentity": {
+            "label": "2. PROOF OF IDENTITY (Pol)* (Please refer 'D' in General Instructions)",
+            "fields": {
+                "registrationCertificate": {
+                    "label": "REGISTRATION CERTIFICATE",
+                    "value": null,
+                    "notes": "No value provided. Requires human review to determine if selected."
+                },
+                "activityProof1": {
+                    "label": "ACTIVITY PROOF 1",
+                    "value": null,
+                    "notes": "No value provided."
+                },
+                "nameOfTheActivityProof1": {
+                    "label": "(NAME OF THE ACTIVITY PROOF)",
+                    "value": null,
+                    "notes": "No value provided."
+                },
+                "activityProof2": {
+                    "label": "ACTIVITY PROOF 2",
+                    "value": null,
+                    "notes": "No value provided. Requires human review to determine if selected."
+                },
+                "nameOfTheActivityProof2": {
+                    "label": "(NAME OF THE ACTIVITY PROOF)",
+                    "value": null,
+                    "notes": "No value provided."
+                },
+                "identityNumber": {
+                    "label": "IDENTITY NUMBER*:",
+                    "value": null,
+                    "notes": "No value provided."
+                },
+                "activityProofNumber": {
+                    "label": "ACTIVITY PROOF NUMBER*:",
+                    "value": null,
+                    "notes": "No value provided."
+                }
+            }
+        },
+        "contactDetails": {
+            "label": "3. CONTACT DETAILS (All communications will be sent on provided Mobile no./ Email- ID) (Please refer General Instruction 'F')",
+            "fields": {
+                "teleRes": {
+                    "label": "TELE (RES.):",
+                    "value": null,
+                    "notes": "No value provided."
+                },
+                "mobileNumberOfAuthorisedSignatory": {
+                    "label": "MOBILE NO. OF AUTHORISED SIGNATORY:",
+                    "value": null,
+                    "notes": "No value provided."
+                },
+                "teleOff": {
+                    "label": "TELE (OFF.):",
+                    "value": null,
+                    "notes": "No value provided."
+                },
+                "emailId": {
+                    "label": "EMAIL ID :",
+                    "value": null,
+                    "notes": "No value provided."
+                },
+                "fax": {
+                    "label": "FAX :",
+                    "value": null,
+                    "notes": "No value provided."
+                }
+            }
+        },
+        "proofOfAddress": {
+            "label": "4. PROOF OF ADDRESS (POA)* (Copies of the document, as applicable, need to be submitted) (Please refer General Instruction 'E')",
+            "fields": {
+                "businessOfficeAddressDetails": {
+                    "label": "4.1 BUSINESS / OFFICE ADDRESS DETAILS*",
+                    "fields": {
+                        "proofOfAddress": {
+                            "label": "PROOF OF ADDRESS*:",
+                            "value": null,
+                            "notes": "No value provided. Requires human review to determine if selected."
+                        },
+                        "registrationCertificate": {
+                            "label": "REGISTRATION CERTIFICATE",
+                            "value": null,
+                            "notes": "No value provided. Requires human review to determine if selected."
+                        },
+                        "other": {
+                            "label": "OTHER",
+                            "value": null,
+                            "notes": "No value provided."
+                        },
+                        "line1": {
+                            "label": "LINE 1*:",
+                            "value": null,
+                            "notes": "No value provided."
+                        },
+                        "line2": {
+                            "label": "LINE 2:",
+                            "value": null,
+                            "notes": "No value provided."
+                        },
+                        "line3": {
+                            "label": "LINE 3:",
+                            "value": null,
+                            "notes": "No value provided."
+                        },
+                        "district": {
+                            "label": "DISTRICT*:",
+                            "value": null,
+                            "notes": "No value provided."
+                        },
+                        "stateUtName": {
+                            "label": "STATE/UT NAME*",
+                            "value": null,
+                            "notes": "No value provided."
+                        },
+                        "stateUtNameCode": {
+                            "label": "STATE/UT NAME CODE*:",
+                            "value": null,
+                            "notes": "No value provided."
+                        },
+                        "cityTownVillage": {
+                            "label": "CITY/TOWN/VILLAGE*:",
+                            "value": null,
+                            "notes": "No value provided."
+                        },
+                        "pinPostCode": {
+                            "label": "PIN/POST CODE*:",
+                            "value": null,
+                            "notes": "No value provided."
+                        },
+                        "countryCode": {
+                            "label": "COUNTRY CODE*:",
+                            "value": null,
+                            "notes": "No value provided."
+                        },
+                        "country": {
+                            "label": "COUNTRY *:",
+                            "value": null,
+                            "notes": "No value provided."
+                        }
+                    }
+                },
+                "correspondenceLocalAddressDetails": {
+                    "label": "4.2 CORRESPONDENCE / LOCAL ADDRESS DETAILS *",
+                    "fields": {
+                        "sameAsBusinessOfficeAddressDetails": {
+                            "label": "SAME AS BUSINESS / OFFICE ADDRESS DETAILS*",
+                            "value": null,
+                            "notes": "No value provided. Requires human review to determine if selected."
+                        },
+                        "proofOfAddress": {
+                            "label": "PROOF OF ADDRESS*:",
+                            "value": null,
+                            "notes": "No value provided. Requires human review to determine if selected."
+                        },
+                        "registrationCertificate": {
+                            "label": "REGISTRATION CERTIFICATE",
+                            "value": null,
+                            "notes": "No value provided. Requires human review to determine if selected."
+                        },
+                        "other": {
+                            "label": "OTHER",
+                            "value": null,
+                            "notes": "No value provided."
+                        },
+                        "line1": {
+                            "label": "LINE 1*:",
+                            "value": null,
+                            "notes": "No value provided."
+                        },
+                        "line2": {
+                            "label": "LINE 2:",
+                            "value": null,
+                            "notes": "No value provided."
+                        },
+                        "line3": {
+                            "label": "LINE 3:",
+                            "value": null,
+                            "notes": "No value provided."
+                        },
+                        "district": {
+                            "label": "DISTRICT*:",
+                            "value": null,
+                            "notes": "No value provided."
+                        },
+                        "stateUtName": {
+                            "label": "STATE/UT NAME*",
+                            "value": null,
+                            "notes": "No value provided."
+                        },
+                        "stateUtNameCode": {
+                            "label": "STATE/UT NAME CODE*:",
+                            "value": null,
+                            "notes": "No value provided."
+                        },
+                        "cityTownVillage": {
+                            "label": "CITY / TOWN / VILLAGE*:",
+                            "value": null,
+                            "notes": "No value provided."
+                        },
+                        "pinPostCode": {
+                            "label": "PIN / POST CODE*:",
+                            "value": null,
+                            "notes": "No value provided."
+                        },
+                        "countryCode": {
+                            "label": "COUNTRY CODE*:",
+                            "value": null,
+                            "notes": "No value provided."
+                        },
+                        "country": {
+                            "label": "COUNTRY *:",
+                            "value": null,
+                            "notes": "No value provided."
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "page_2": {
+        "5. NATURE OF BUSINESS": {
+            "MANUFACTURER": null,
+            "TRADER": null,
+            "RETAILER": null,
+            "SERVICE PROVIDER": null,
+            "EXPORT/IMPORT": null,
+            "OTHERS": null,
+            "INDUSTRY CLASSIFICATION CODE *": null,
+            "BUSINESS SECTOR CODE *": null,
+            "ANNUAL TURNOVER*: RS.": null,
+            "FY": null,
+            "CODE": null,
+            "SECTOR": null,
+            "SOURCES OF FUND:": {
+                "BUSINESS INCOME": true,
+                "DONATION / GRANT": false,
+                "FROM GROUP COMPANY": false,
+                "EQUITY INVESTMENT": false,
+                "OTHER": false
+            },
+            "MLM UNDERTAKING:": {
+                "I Declare that my Proprietorship Firm is not a MLM (Multi Level Marketing) Firm": null,
+                "I Declare that my Proprietorship Firm is a MLM (Multi Level Marketing) Firm": null
+            }
+        },
+        "6. ACCOUNT VARIANT": {
+            "Regular Current Account (MAB - Rs. 5,000/-)": false,
+            "Diamond Current Account (MAB - Rs. 5,00,000/-)": false,
+            "Gold Current Account (MAB - Rs. 1,00,000/-)": false,
+            "Platinum Current Account (MAB - Rs. 10,00,000/-)": false,
+            "Others": null
+        },
+        "7. SERVICES REQUIRED": {
+            "CORPORATE INTERNET BANKING:": {
+                "VIEWING RIGHTS": null,
+                "TRANSACTION RIGHTS": null
+            },
+            "BUSINESS DEBIT CARD:": {
+                "PRIDE": null,
+                "PREMIUM": null
+            },
+            "CASH MGMT PRODUCTS": {
+                "viz CASH PICK UP": null,
+                "e-COLLECTION": null,
+                "e-PAYMENT": null
+            },
+            "POS FACILITY (CARD SWIPING MACHINE)": null,
+            "CHEQUE BOOK": null,
+            "UPI/QR CODE": null,
+            "SMS ALERTS": null,
+            "E-HAND SHAKE INSTA DEPOSIT CARD": null,
+            "DO YOU WISH TO REGISTER FOR POSITIVE PAY SYSTEM:": "YES"
+        },
+        "8. MODE OF OPERATION": {
+            "SINGLY": null,
+            "OTHERS: (PLEASE SPECIFY)": null
+        },
+        "9. COUNTRY OF RESIDENCE AS PER TAX LAWS *": {
+            "FINANCIAL INSTITUTION (FI)": null,
+            "NON FINANCIAL ENTITY (NFE)": null,
+            "ACTIVE NFE OR PASSIVE NFE": null,
+            "TAX RESIDENT OF INDIA ONLY AND NOT OF ANY OTHER COUNTRY OUTSIDE INDIA": null
+        },
+        "Signature of the Declarant": null
+    },
+    "page_3": {
+        "form_details": {
+            "form_number": "60",
+            "form_name": "IN CASE PAN IS NOT AVAILABLE",
+            "name": null,
+            "note_name": "Illegible",
+            "same_as_id_proof": null,
+            "note_same_as_id_proof": "Illegible",
+            "if_applied_for_pan_and_it_is_not_yet_generated_enter_date_of_application": null,
+            "note_date_of_application": "Illegible",
+            "acknowledgement_number": null,
+            "note_acknowledgement_number": "Illegible",
+            "if_pan_is_not_applied_fill_estimated_total_income_including_income_of_spouse_minor_child_etc_as_per_section_64_of_income_tax_act_1961_for_financial_year_in_which_the_above_transaction_is_held": null,
+            "note_income": "Illegible",
+            "agriculture_income_rs": null,
+            "note_agriculture_income": "Illegible",
+            "other_than_agricultural_income": null,
+            "note_other_income": "Illegible",
+            "verified_today_the": null,
+            "note_verified_date": "Illegible",
+            "place": null,
+            "note_place": "Illegible",
+            "signature_of_the_declarant": null,
+            "note_signature_declarant": "Illegible",
+            "declaration_cum_undertaking_for_opening_continuing_current_account": null,
+            "name_of_the_customer": null,
+            "note_customer_name": "Illegible",
+            "bank_name": {
+                "sbi": null,
+                "bank1": null,
+                "bank2": null,
+                "total": null
+            },
+            "total_exposure": null,
+            "fund_based_cc_od": null,
+            "fund_based_like_tl_dl": null,
+            "non_fund_based_like_lc_bg": null,
+            "rs_exposure": null,
+            "total_credit_exposure": null,
+            "less_than_rs_5_crs": false,
+            "rs_5_crs": false,
+            "exempted_category": false,
+            "name_of_the_customer_2": null,
+            "note_customer_name_2": "Illegible",
+            "signature_of_the_customer_s_authorised_representative_s": null,
+            "note_signature_customer": "Illegible",
+            "acknowledgement_da_1": null,
+            "name_of_the_nominee": null,
+            "note_nominee_name": "Illegible",
+            "with_respect_to_your_account_number": null,
+            "note_account_number": "Illegible",
+            "registration_no": null,
+            "note_registration_no": "Illegible",
+            "date": null,
+            "note_date": "Illegible",
+            "age": null,
+            "note_age": "Illegible",
+            "years": null,
+            "note_years": "Illegible",
+            "yours_faithfully": null,
+            "signature_of_bank_official_with_seal": null,
+            "note_bank_official_signature": "Illegible"
+        }
+    },
+    "page_4": {
+        "Applicant Declaration": {
+            "fields": [
+                {
+                    "label": "SIGNATURE OF PROPRIETOR",
+                    "value": null,
+                    "notes": "Handwritten signature; cannot be transcribed."
+                },
+                {
+                    "label": "NAME:",
+                    "value": null,
+                    "notes": "Handwritten; illegible."
+                },
+                {
+                    "label": "DATE:",
+                    "value": null,
+                    "notes": "Handwritten; illegible."
+                },
+                {
+                    "label": "OFFICER (SIGNATURE)",
+                    "value": null,
+                    "notes": "Handwritten signature; cannot be transcribed."
+                },
+                {
+                    "label": "NAME:",
+                    "value": null,
+                    "notes": "Handwritten; illegible."
+                },
+                {
+                    "label": "PF No.:",
+                    "value": null,
+                    "notes": "Handwritten; illegible."
+                },
+                {
+                    "label": "SS No.:",
+                    "value": null,
+                    "notes": "Handwritten; illegible."
+                }
+            ]
+        },
+        "Current Account Rules": {
+            "fields": []
+        }
+    },
+    "page_5": {
+        "NOMINATION": {
+            "I WANT TO MAKE A NOMINATION IN MY ACCOUNT OR": null,
+            "I DO NOT WANT TO MAKE A NOMINATION IN MY ACCOUNT": null,
+            "NOMINATION FORM (DA1)": null,
+            "Nomination under Section 45ZA of the Banking Regulation Act, 1949 and Rule 2(1) of Banking Companies (Nomination) Rules 1985 in the respect of Bank Deposits.": null,
+            "given below, may be returned by State Bank of India": null,
+            "DETAILS OF DEPOSIT": {
+                "Type of Deposit": null,
+                "ACCOUNT NO:": null
+            },
+            "DETAILS OF THE NOMINEE": {
+                "NAME:": null,
+                "RELATIONSHIP WITH THE DEPOSITOR:": null,
+                "ADDRESS:": null,
+                "CITY:": null,
+                "PIN:": null,
+                "AGE:": null,
+                "DATE OF BIRTH OF NOMINEE:": null,
+                "STATE:": null,
+                "CIF NO. OF NOMINEE (to be filled by LCPC):": null,
+                "age": null,
+                "years": null,
+                "As the nominee is a minor on this date, I appoint Shri/Smt.": null,
+                "Address": null,
+                "to receive the amount of the deposit on behalf of the nominee in the event of my / minor's death during the minority of the nominee.": null
+            },
+            "SIGNATURE OF PROPRIETOR": null,
+            "FOR OFFICE USE ONLY": {
+                "1. APPLICANT INTERVIEWED AND PURPOSE ASCERTAINED (SPECIFY THE PURPOSE):": null,
+                "2. WHETHER SELF - CERTIFICATION & DOCUMENTS SUBMITTED BY THE CUSTOMERS HAVE BEEN VERIFIED AND FOUND CORRECT AND RELIABLE:": null,
+                "(CARE: BRANCH TO PROCEED WITH OPENING OF ACCOUNT ONLY WHEN THIS CERTIFICATION IS \"YES\")": null,
+                "3. THRESHHOLD LIMIT IS RS:": null,
+                "4. DOCUMENTS RECEIVED:": {
+                    "SELF CERTIFIED": null,
+                    "TRUE COPIES": null,
+                    "NOTARY": null
+                },
+                "5. RISK CATEGORY:": {
+                    "HIGH": null,
+                    "MEDIUM": null,
+                    "LOW": null
+                },
+                "6 IN PERSON IDENTITY AND SIGNATURE VERIFIED": {
+                    "YES": null,
+                    "NO": null
+                },
+                "7. AUTHORISED OFFICIAL HAS VERIFIED THE ACTIVITY OF PROPRIETARY CONCERN AT THE ADDRESS MENTIONED IN ACCOUNT OPENING FORM:": {
+                    "YES": null,
+                    "NO": null
+                },
+                "OFFICIAL NAME:": null,
+                "DATE:": null,
+                "SS NO.:": null,
+                "PF NO.:": null,
+                "DESIGNATION:": null,
+                "OPEN CIF": {
+                    "DATE:": null,
+                    "QUEUE NO.": null,
+                    "INITIALS": null,
+                    "CIF:": null,
+                    "CIF NUMBER:": null
+                },
+                "OPEN THE ACCOUNT": {
+                    "BRANCH MANAGER/ AUTHORISED OFFICIAL": null,
+                    "ACCOUNT OPENED ON:": null,
+                    "REMARKS (IF ANY):": null,
+                    "ACCOUNT NUMBER:": null
+                },
+                "ASSISTANT (SIGNATURE)": {
+                    "NAME:": null,
+                    "S. S. No. / P.F. No.": null,
+                    "EMP./OFF. DESIGNATION": null,
+                    "EMP./OFF. BRANCH": null
+                },
+                "OFFICER (SIGNATURE)": {
+                    "NAME:": null,
+                    "S. S. No. / P.F. No.": null,
+                    "EMP./OFF. DESIGNATION": null,
+                    "EMP./OFF. BRANCH": null
+                }
+            },
+            "NOMINATION SERIAL NO.": null
+        }
+    },
+    "page_6": {
+        "Branch Name": {
+            "label": "Branch Name",
+            "value": null,
+            "notes": "No value provided."
+        },
+        "Branch Code": {
+            "label": "Branch Code",
+            "value": null,
+            "notes": "No value provided."
+        },
+        "Customer ID": {
+            "label": "Customer ID",
+            "value": null,
+            "notes": "No value provided."
+        },
+        "Account No.": {
+            "label": "Account No.",
+            "value": null,
+            "notes": "No value provided."
+        },
+        "Account type": {
+            "label": "Account type",
+            "value": null,
+            "notes": "No value selected."
+        },
+        "Application type": {
+            "label": "Application type",
+            "value": null,
+            "notes": "No value selected."
+        },
+        "CKYC No.": {
+            "label": "CKYC No.",
+            "value": null,
+            "notes": "No value provided."
+        },
+        "Staff": {
+            "label": "Staff",
+            "value": null,
+            "notes": "No value selected."
+        },
+        "PF NO.": {
+            "label": "PF NO.",
+            "value": null,
+            "notes": "No value provided."
+        },
+        "1.Name*": {
+            "label": "1.Name*",
+            "value": null,
+            "notes": "No value provided."
+        },
+        "2.Maiden Name:": {
+            "label": "2.Maiden Name:",
+            "value": null,
+            "notes": "No value provided."
+        },
+        "3.Date of Birth*": {
+            "label": "3.Date of Birth*",
+            "value": null,
+            "notes": "No value provided."
+        },
+        "4.Gender*": {
+            "label": "4.Gender*",
+            "value": null,
+            "notes": "No value selected."
+        },
+        "5.Marital Status": {
+            "label": "5.Marital Status",
+            "value": null,
+            "notes": "No value selected."
+        },
+        "6. No of Dependers": {
+            "label": "6. No of Dependers",
+            "value": null,
+            "notes": "No value provided."
+        },
+        "7.Name of *": {
+            "label": "7.Name of *",
+            "value": null,
+            "notes": "No value provided.  Field indicates selection of Father, Mother, or Spouse."
+        },
+        "8. Name of Guardian": {
+            "label": "8. Name of Guardian",
+            "value": null,
+            "notes": "No value provided."
+        },
+        "Relationship with Guardian": {
+            "label": "Relationship with Guardian",
+            "value": null,
+            "notes": "No value provided."
+        },
+        "9.Nationality:": {
+            "label": "9.Nationality:",
+            "value": null,
+            "notes": "No value selected."
+        },
+        "10.Citizenship:": {
+            "label": "10.Citizenship:",
+            "value": null,
+            "notes": "No value provided."
+        },
+        "11.Occupation Type": {
+            "label": "11.Occupation Type",
+            "value": null,
+            "notes": "No value selected."
+        },
+        "12.Organization's Name:": {
+            "label": "12.Organization's Name:",
+            "value": null,
+            "notes": "No value provided."
+        },
+        "Nature of Business:": {
+            "label": "Nature of Business:",
+            "value": null,
+            "notes": "No value provided."
+        },
+        "13. Annual Income* Rs.": {
+            "label": "13. Annual Income* Rs.",
+            "value": null,
+            "notes": "No value provided."
+        },
+        "14.Net Worth (approx value) Rs.": {
+            "label": "14.Net Worth (approx value) Rs.",
+            "value": null,
+            "notes": "No value provided."
+        },
+        "15.Source of funds": {
+            "label": "15.Source of funds",
+            "value": null,
+            "notes": "No value selected."
+        },
+        "16.Religion:": {
+            "label": "16.Religion:",
+            "value": null,
+            "notes": "No value selected."
+        },
+        "17.Category:": {
+            "label": "17.Category:",
+            "value": null,
+            "notes": "No value selected."
+        },
+        "18.Person with disability": {
+            "label": "18.Person with disability",
+            "value": null,
+            "notes": "No value selected."
+        },
+        "19. Educational Qualification:": {
+            "label": "19. Educational Qualification:",
+            "value": null,
+            "notes": "No value selected."
+        },
+        "20. Please Tick the Applicable box*": {
+            "label": "20. Please Tick the Applicable box*",
+            "value": null,
+            "notes": "No value selected."
+        },
+        "21.Country of Tax Residence in India only and not in any other country or territory outside India*": {
+            "label": "21.Country of Tax Residence in India only and not in any other country or territory outside India*",
+            "value": null,
+            "notes": "No value selected."
+        },
+        "22.PAN*": {
+            "label": "22.PAN*",
+            "value": null,
+            "notes": "No value provided."
+        },
+        "Mobile No.": {
+            "label": "Mobile No.",
+            "value": null,
+            "notes": "No value provided."
+        },
+        "STD Tel. (Off):": {
+            "label": "STD Tel. (Off):",
+            "value": null,
+            "notes": "No value provided."
+        },
+        "Email ID": {
+            "label": "Email ID",
+            "value": null,
+            "notes": "No value provided."
+        },
+        "Tel. (Res):": {
+            "label": "Tel. (Res):",
+            "value": null,
+            "notes": "No value provided."
+        },
+        "Country Name": {
+            "label": "Country Name",
+            "value": null,
+            "notes": "No value provided."
+        },
+        "Designation/Profession:": {
+            "label": "Designation/Profession:",
+            "value": null,
+            "notes": "No value provided."
+        }
+    },
+    "page_7": {
+        "C Proof of Identity/Address (Officially Valid Documents)": {
+            "A-PASSPORT": {
+                "value": null,
+                "notes": "No value provided"
+            },
+            "B-VOTER'S IDENTITY CARD": {
+                "value": null,
+                "notes": "No value provided"
+            },
+            "C-DRIVING LICENCE": {
+                "value": null,
+                "notes": "No value provided"
+            },
+            "D-Proof of possession of Aadhaar Number (Verification)": {
+                "value": null,
+                "notes": "No value provided"
+            },
+            "E-KYC": {
+                "value": null,
+                "notes": "No value provided"
+            },
+            "Offline": {
+                "value": null,
+                "notes": "No value provided"
+            },
+            "Whether submitted document is equivalent e-document:": {
+                "Yes": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "No": {
+                    "value": null,
+                    "notes": "No value provided"
+                }
+            },
+            "Document No/Identification Number*": {
+                "value": null,
+                "notes": "No value provided"
+            },
+            "Issued By:": {
+                "value": null,
+                "notes": "No value provided"
+            },
+            "Issue Date*": {
+                "value": null,
+                "notes": "No value provided"
+            },
+            "Expiry Date*": {
+                "value": null,
+                "notes": "No value provided"
+            },
+            "Only for Foreign Nationals:": {
+                "VISA Details (reference No):": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "Issued By:": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "Issue Date*": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "Expiry Date*": {
+                    "value": null,
+                    "notes": "No value provided"
+                }
+            },
+            "D Address details": {
+                "Current": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "Overseas": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "Address type*": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "Address*": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "City/Village*": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "District*": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "Pin*": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "State*": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "Country Name*": {
+                    "value": null,
+                    "notes": "No value provided"
+                }
+            },
+            "E Address details": {
+                "Correspondence": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "Same as Current/Overseas Address": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "Address type*": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "Address*": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "City/Village*": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "District*": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "Pin*": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "State*": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "Country Name*": {
+                    "value": null,
+                    "notes": "No value provided"
+                }
+            },
+            "F If the Officially Valid Document (OVD) does not contain current address-please provide any of the documents below.": {
+                "Utility Bill": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "PPO/FPPO": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "Property or Municipal tax receipt": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "Letter of allotment of accommodation issued by employer/issued by State or Central Government departments, statutory or regulatory bodies, Public sector undertaking, scheduled commercial banks, financial institutions and listed companies. Similarly, leave and license agreements with such employers allotting official accommodation.": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "Self-Declaration (If Aadhar is voluntarily provided for identification purpose and current address is different form address available in Central Identities Data Repository Authentication of Aadhaar number using e-KYC authentication facility provided by the UIDAI is mandatory)": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "Document No.": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "Date": {
+                    "value": null,
+                    "notes": "No value provided"
+                }
+            },
+            "G DECLARATION CUM UNDERTAKING CUM SELF-CERTIFICATION": {
+                "1. I have read the copy of Terms and Conditions of the Account Opening Form given to me. The Terms and Conditions have been explained to me/us and having understood, I accept the same.": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "2. I hereby declare that I have submitted the Aadhaar Card issued by UIDAI voluntarily for identification and/or address proof towards the compliance of KYC norms under the PMLA, 2002": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "3. I hereby consent that the Bank may verify the same with the UIDAI and authorise the UIDAI expressly to release the identity and address through biometric / OTP based authentication to the Bank.": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "YES": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "NO": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "PHOTO*": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "Place": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "Date": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "Signature/Thumb impression of the Applicant": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "DOCUMENTS RECEIVED:": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "SELF-CERTIFIED": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "TRUE COPIES": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "NOTARY": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "RISK CATEGORY:": {
+                    "HIGH": {
+                        "value": null,
+                        "notes": "No value provided"
+                    },
+                    "MEDIUM": {
+                        "value": null,
+                        "notes": "No value provided"
+                    },
+                    "LOW": {
+                        "value": null,
+                        "notes": "No value provided"
+                    }
+                },
+                "IN PERSON VERIFICATION CARRIED OUT (IDENTITY VERIFICATION)": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "DONE": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "DATE:": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "EMP./OFFICIAL SIGNATURE": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "S.S No. / P.F No.:": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "EMP./OFF. DESIGNATION:": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "EMP./OFF. NAME:": {
+                    "value": null,
+                    "notes": "No value provided"
+                },
+                "EMP./OFF. BRANCH:": {
+                    "value": null,
+                    "notes": "No value provided"
+                }
+            }
+        }
+    },
+    "page_8": {
+        "Declaration for Opening/Continuing Current/Collection Account": {
+            "Name of the Customer": null,
+            "My / Our Credit Exposure": [
+                {
+                    "Sl. No.": "3a.",
+                    "i)": "Total Credit exposure Rs.5 Crores or more",
+                    "ii)": "SBI exposure 10% or more",
+                    "iii)": "SBI having CC/OD Account",
+                    "iv)": "Customer willing to have operative CA with SBI",
+                    "My / Our request": "I/We willing to have an Operative Current Account with SBI"
+                },
+                {
+                    "Sl. No.": "3b.",
+                    "i)": "Total Credit exposure Rs. 5 Crore or more",
+                    "ii)": "SBI exposure 10% or more (or) Exposure 10% or less",
+                    "iii)": "Customer having CC/OD Account with any Bank, which may or may not include SBI.",
+                    "iv)": "Customer NOT willing to have operative CA with SBI",
+                    "My / Our request": "I/We am willing to have a *collection account with SBI."
+                },
+                {
+                    "Sl. No.": "3c.",
+                    "i)": "Total Credit exposure Rs. 5 Crores or more",
+                    "ii)": "SBI exposure less than 10% with CC/OD facility and is the highest amongst all the lenders.",
+                    "iii)": "No other bank has exposure 10% or more",
+                    "My / Our request": "I/We willing to have an Operative Current Account with SBI."
+                },
+                {
+                    "Sl. No.": "3d.",
+                    "i)": "Total Credit exposure Rs. 5 Crores or more",
+                    "ii)": "SBI exposure 10% or more without CC/OD",
+                    "iii)": "SBI is one of the lenders.",
+                    "iv)": "Customer having CCOD with another Bank",
+                    "My / Our request": "I/We am willing to have a *collection account with SBI."
+                },
+                {
+                    "Sl. No.": "4a",
+                    "i)": "Total credit exposure Rs.5 crores or more but less than Rs.50 crore, without CC/OD exposure from any Bank",
+                    "ii)": "SBI is one of lending Bank",
+                    "My / Our request": "I/We am willing to have an Operative Current Account with SBI"
+                },
+                {
+                    "Sl. No.": "4b",
+                    "i)": "Total credit exposure Rs.5 crore or more but less than Rs.50 crore, without CC/OD exposure from any Bank",
+                    "ii)": "SBI is not one of lending Bank",
+                    "My / Our request": "I/We am willing to have a *collection account with SBI."
+                },
+                {
+                    "Sl. No.": "5",
+                    "i)": "Total credit exposure Rs. 50 crores or more without CC/OD exposure from any Bank",
+                    "ii)": "SBI one of lending Bank",
+                    "My / Our request": "I/We am willing to have Current account (under the prescribed Escrow mechanism) / *collection account with SBI (strike whichever not applicable). I understand that Current account can be opened/ maintained with the escrow managing bank only."
+                }
+            ],
+            "For * collection accounts only": {
+                "Name of Bank / IFSC Code": null,
+                "Account Number": null
+            },
+            "Signature of the Customer(s) / Authorised Representative(s)": null
+        }
+    },
+    "page_9": {
+        "Declaration for Opening/Continuing Current Account": {
+            "Name of the Customer": "null",
+            "Notes": "Name of the Customer field is not filled in the provided text."
+        },
+        "My / Our Credit Exposure": [
+            {
+                "Sl. No.": "1",
+                "My / Our Credit Exposure": "Accounts for real estate projects mandated under Section 4(2) I (D) of the Real Estate (Regulation and Development) Act, 2016 for thepurpose of maintaining 70% of advance payments collected from the home buyers.",
+                "Documents": "As specified in RERA Circular"
+            },
+            {
+                "Sl. No.": "2",
+                "My / Our Credit Exposure": "Nodal or escrow accounts of payment aggregators/prepaid payment instrument issuers for specific activities as permitted by Department of Payments and Settlement Systems (DPSS), Reserve Bank of India under Payment and Settlement Systems Act, 2007.",
+                "Documents": "As specified by RBI"
+            },
+            {
+                "Sl. No.": "3",
+                "My / Our Credit Exposure": "Accounts for settlement of dues related to debit card / ATM card / credit card issuers / acquirers.",
+                "Documents": "As specified by RBI / relevant regulation"
+            },
+            {
+                "Sl. No.": "4",
+                "My / Our Credit Exposure": "Accounts permitted under FEMA, 1999.",
+                "Documents": "As specified by FEMA regulation"
+            },
+            {
+                "Sl. No.": "5",
+                "My / Our Credit Exposure": "Accounts for the purpose of IPO/NFO/FPO/ share buyback /dividend payment/ issuance of commercial papers/ allotment of debentures/gratuity, etc. which are mandated by respective statutes or regulators and are meant for specific /limited transactions only.",
+                "Documents": "As mandated by respective statutes or regulators"
+            },
+            {
+                "Sl. No.": "6",
+                "My / Our Credit Exposure": "Accounts for payment of taxes, duties, statutory dues, etc. opened with banks authorized to collect the same, for borrowers of such banks which are not authorized to collect such taxes, duties, statutory dues, etc.",
+                "Documents": "Letter from Other Bank"
+            },
+            {
+                "Sl. No.": "7",
+                "My / Our Credit Exposure": "AccountsofWhite LabelATMOperatorsandtheiragentsforsourcingof currency/Cash-in-Transit/Companies/Cash Agencies. Replenishment",
+                "Documents": "As mandated by respective statutes or regulators"
+            },
+            {
+                "Sl. No.": "8",
+                "My / Our Credit Exposure": "Current accounts which are stipulated under various statues and instructions of other regulator/regulatory department (Give details of such regulations and attach regulation copy(ies)",
+                "Documents": "As mandated by respective statutes or regulators"
+            },
+            {
+                "Sl. No.": "9",
+                "My / Our Credit Exposure": "To open a current account for project specific facilities like Term Loan/Lease Rental Discounting (LRD) term loan for receiving/monitoring cash flows of a specific project, I / We have not availed any CC/OD facility for that specific project. Give details and attach relevant proofs (FAQ 11 of RBI Circular dated 14.12.2020). I We undertake to ensure that cash flows will be coming in this account are from that specific project only.",
+                "Documents": "Documents established the claim of customer and Annexure ver 3 (V-A)"
+            },
+            {
+                "Sl. No.": "10",
+                "My / Our Credit Exposure": "To open current accounts for borrowers having credit facilities only from NBFCs/FIs/co-operative banks/ non-bank institutions. Give details and attach relevant proofs (FAQ12 of RBI Circular dated 14.12.2020).",
+                "Documents": "CRIF report & Annexure ver 3 (V-A)"
+            },
+            {
+                "Sl. No.": "11",
+                "My / Our Credit Exposure": "Inter-bank accounts",
+                "Documents": "Ensure customer is a Bank"
+            },
+            {
+                "Sl. No.": "12",
+                "My / Our Credit Exposure": "Accounts of All India Financial Institutions (AIFIs), viz., EXIM Bank, NABARD, NHB, and SIDBI",
+                "Documents": "Ensure customer is AIFI"
+            },
+            {
+                "Sl. No.": "13",
+                "My / Our Credit Exposure": "Accounts opened under specific instructions of Central Government and State Governments",
+                "Documents": "Copy of relevant Govt Instructions"
+            }
+        ]
+    },
+    "page_10": {
+        "FATCA & CRS": {
+            "TAX RESIDENT OF US": {
+                "label": "TAX RESIDENT OF US",
+                "value": null,
+                "notes": "No value provided.  Requires image analysis to determine if 'YES' or 'NO' is selected."
+            },
+            "US TIN": {
+                "label": "US TIN",
+                "value": null,
+                "notes": "No value provided.  Field is blank."
+            },
+            "IF TAX RESIDENT OF US, WHETHER THE PERSON IS": {
+                "A US PERSON": {
+                    "label": "A US PERSON",
+                    "value": null,
+                    "notes": "No value provided. Requires image analysis to determine if 'YES' or 'NO' is selected."
+                },
+                "A SPECIFIED US PERSON": {
+                    "label": "A SPECIFIED US PERSON",
+                    "value": null,
+                    "notes": "No value provided. Requires image analysis to determine if 'YES' or 'NO' is selected."
+                }
+            },
+            "TAX RESIDENT OUTSIDE INDIA OTHER THAN US": {
+                "label": "TAX RESIDENT OUTSIDE INDIA OTHER THAN US",
+                "value": null,
+                "notes": "No value provided. Requires image analysis to determine if 'YES' or 'NO' is selected."
+            },
+            "COUNTRY CODE": {
+                "label": "COUNTRY CODE",
+                "value": null,
+                "notes": "No value provided. Field is blank."
+            },
+            "TIN/FUNCTIONAL EQUIVALENT": {
+                "label": "& TIN/FUNCTIONAL EQUIVALENT",
+                "value": null,
+                "notes": "No value provided. Field is blank."
+            },
+            "IF TAX RESIDENT OUTSIDE INDIA & OTHER THAN US IS \"YES\", WHETHER ENTITY FALLS IN ANY OF THE FOLLOWING CATEGORY": {
+                "I. ANY CORPORATION THE STOCK OF WHICH IS REGULARLY TRADED ON ONE OR MORE ESTABLISHED SECURITIES MARKET": {
+                    "label": "I. ANY CORPORATION THE STOCK OF WHICH IS REGULARLY TRADED ON ONE OR MORE ESTABLISHED SECURITIES MARKET",
+                    "value": null,
+                    "notes": "No value provided. Requires image analysis to determine if 'YES' or 'NO' is selected."
+                },
+                "II. ANY CORPORATION THAT IS A RELATED ENTITY OF A CORPORATION DESCRIBED IN (I) ABOVE": {
+                    "label": "II. ANY CORPORATION THAT IS A RELATED ENTITY OF A CORPORATION DESCRIBED IN (I) ABOVE",
+                    "value": null,
+                    "notes": "No value provided. Requires image analysis to determine if 'YES' or 'NO' is selected."
+                },
+                "III. A GOVERNMENTAL ENTITY": {
+                    "label": "III. A GOVERNMENTAL ENTITY",
+                    "value": null,
+                    "notes": "No value provided. Requires image analysis to determine if 'YES' or 'NO' is selected."
+                },
+                "IV. AN INTERNATIONAL ORGANIZATION": {
+                    "label": "IV. AN INTERNATIONAL ORGANIZATION",
+                    "value": null,
+                    "notes": "No value provided. Requires image analysis to determine if 'YES' or 'NO' is selected."
+                },
+                "V. A CENTRAL BANK": {
+                    "label": "V. A CENTRAL BANK",
+                    "value": null,
+                    "notes": "No value provided. Requires image analysis to determine if 'YES' or 'NO' is selected."
+                },
+                "VI. A FINANCIAL INSTITUTION": {
+                    "label": "VI. A FINANCIAL INSTITUTION",
+                    "value": null,
+                    "notes": "No value provided. Requires image analysis to determine if 'YES' or 'NO' is selected."
+                },
+                "NO RESIDENCE FOR TAX PURPOSE": {
+                    "label": "NO RESIDENCE FOR TAX PURPOSE",
+                    "value": null,
+                    "notes": "No value provided. Requires image analysis to determine if 'YES' or 'NO' is selected."
+                }
+            },
+            "MULTIPLE TAX RESIDENCY": {
+                "label": "MULTIPLE TAX RESIDENCY",
+                "value": null,
+                "notes": "No value provided. Requires image analysis to determine if 'YES' or 'NO' is selected."
+            },
+            "ADDRESS": {
+                "LINE 1": {
+                    "label": "LINE 1",
+                    "value": null,
+                    "notes": "No value provided. Field is blank."
+                },
+                "LINE 2": {
+                    "label": "LINE 2",
+                    "value": null,
+                    "notes": "No value provided. Field is blank."
+                },
+                "LINE 3": {
+                    "label": "LINE 3",
+                    "value": null,
+                    "notes": "No value provided. Field is blank."
+                },
+                "CITY": {
+                    "label": "CITY",
+                    "value": null,
+                    "notes": "No value provided. Field is blank."
+                },
+                "STATE": {
+                    "label": "STATE",
+                    "value": null,
+                    "notes": "No value provided. Field is blank."
+                },
+                "PIN": {
+                    "label": "PIN",
+                    "value": null,
+                    "notes": "No value provided. Field is blank."
+                }
+            },
+            "Signature of Declarant": {
+                "label": "Signature of Declarant",
+                "value": null,
+                "notes": "No value provided. Field is blank."
+            }
+        }
+    },
+    "page_11": {
+        "checklist": {
+            "A": {
+                "Completion of Form": {
+                    "1": {
+                        "AOF filled in Block Letters": "\u2713"
+                    },
+                    "2": {
+                        "All mandatory fields are filled": "\u2713"
+                    },
+                    "3": {
+                        "Name on AOF and all Documents is Matching": "\u2713"
+                    },
+                    "4": {
+                        "Signature of customer checked on all relevant places, and is same at all places": "\u2713"
+                    },
+                    "5": {
+                        "Bank Official has signed with SS number and Stamp at all relevant places in the form": "\u2713"
+                    },
+                    "6": {
+                        "Verified with original done with date on all documents attached by branch official": "\u2713"
+                    },
+                    "7": {
+                        "Recent color photograph (not more than 6 months old) of authorized signatories affixed": "\u2713"
+                    },
+                    "8": {
+                        "MLM Declaration Filled and signed by the customer": "\u2713"
+                    },
+                    "9": {
+                        "FATCA declaration taken from Customer": "\u2713"
+                    },
+                    "10": {
+                        "Beneficial Owner Details obtained, verified and entered in CBS": "\u2713"
+                    },
+                    "11": {
+                        "Undertaking for Credit facilities availed is taken from the Customer, duly signed and stamped.": "\u2713"
+                    },
+                    "12": {
+                        "Beneficiary Owner Name and Controlling Interest is filled (Ann 4), Signed & Stamped by Entity (Not for Proprietor & Public Ltd)": "\u2713"
+                    }
+                },
+                "B": {
+                    "KYC": {
+                        "13": {
+                            "PAN is mentioned and taken (Compulsory for Partnership, LLP, Private & Public Ltd) else Form 60 is filled": "\u2713"
+                        },
+                        "14": {
+                            "KYC documents as per constitution of the Customer/ALL Beneficiary Owner/ALL Related Person obtained & updated in CBS": "\u2713"
+                        },
+                        "15": {
+                            "Name & Address details mentioned in the form matches with details on Identity & proof": "\u2713"
+                        }
+                    }
+                },
+                "C": {
+                    "Sole Proprietorship": {
+                        "1": {
+                            "Two Identity Proof - duly verified has been taken as per latest KYC guidelines": "\u2713"
+                        },
+                        "2": {
+                            "Contact Point Verification, if taken, is duly filled with Customer Signature and Verified by Branch Official": "\u2713"
+                        }
+                    }
+                },
+                "D": {
+                    "Partnership Account": {
+                        "1": {
+                            "ID and Address proof of all partners is obtained": "\u2713"
+                        },
+                        "2": {
+                            "Copy of self attested Partnership Deed Obtained": "\u2713"
+                        },
+                        "3": {
+                            "Partnership letter (Cos 37) Duly Dated Signed Twice By All Partners - Ones With Stamp And Ones Without Stamp In Personal Capacity signed by all partners": "\u2713"
+                        },
+                        "4": {
+                            "PAN of Partnership Firm is taken": "\u2713"
+                        },
+                        "5": {
+                            "PoA/ granted to a partner or employee of the firm to transact business on its behalf or Resolution to operate Account with clear mandate to be submitted": "\u2713"
+                        }
+                    }
+                },
+                "E": {
+                    "LLP Account": {
+                        "1": {
+                            "LLP Agreement & Certificate of Incorporation of LLP is Taken": "\u2713"
+                        },
+                        "2": {
+                            "LLP Registration Certificate from Registrar of Companies (ROC) along with DPIN is attached (required if current Address differs from address mentioned in Certificate of Incorporation of LLP.)": "\u2713"
+                        },
+                        "3": {
+                            "Resolution of the Partners for Opening Current Account with the Bank is taken": "\u2713"
+                        }
+                    }
+                },
+                "F": {
+                    "Private Limited": {
+                        "1": {
+                            "Name of company exactly match with all Docs, AOF, Stamp, letterhead, COI, MOA & AOA": "\u2713"
+                        },
+                        "2": {
+                            "Complete Set Of Memorandum and Articles Of Association is obtained": "\u2713"
+                        },
+                        "3": {
+                            "Certificate of Incorporation of company is obtained": "\u2713"
+                        },
+                        "4": {
+                            "Resolution Copy is Signed By All Directors/ Company Secretary": "\u2713"
+                        }
+                    }
+                },
+                "G": {
+                    "Public Limited": {
+                        "1": {
+                            "Resolution Copy is Signed By All Directors/ Company Secretary": "\u2713"
+                        },
+                        "2": {
+                            "Complete Set Of Memorandum and Articles Of Association is Uploaded": "\u2713"
+                        },
+                        "3": {
+                            "Certificate of Incorporation of company is obtained": "\u2713"
+                        },
+                        "4": {
+                            "Certificate Of Commencement Of Business is Submitted": "\u2713"
+                        }
+                    }
+                },
+                "H": {
+                    "HUF": {
+                        "1": {
+                            "Cos 38 To Be Filled And Signed Twice By Karta And All Adult Co-Parceners, Karta has Signed Twice On Behalf Of Minor Co Parceners": "\u2713"
+                        },
+                        "2": {
+                            "Cos 38 Part A Is For Current A/C And Part B Is For Saving A/C, and is uploaded As Per A/C Type Or Vice Versa": "\u2713"
+                        },
+                        "3": {
+                            "Declaration From Karta duly dated stating That \"Depositor Is Karta Of Joint Family And Deposits Belongs To Joint Hindu Family\" With Full Address is taken.": "\u2713"
+                        }
+                    }
+                },
+                "I": {
+                    "Trust/ Body of Associations/ Society": {
+                        "1": {
+                            "Resolution is Signed By All Trustees/ Committee Members (For all)": "\u2713"
+                        },
+                        "2": {
+                            "Complete Set Of Trust Deed is Submitted (For Trust)": "\u2713"
+                        },
+                        "3": {
+                            "Registration Certificate Of Trust/ Society/Association is provided": "\u2713"
+                        },
+                        "4": {
+                            "Complete Set Of By Laws/Memorandum Of Association is Provided (for Society)": "\u2713"
+                        },
+                        "5": {
+                            "Letter Of Auth Sig / Power Of Attorney Is Prodived (For Society)": "\u2713"
+                        }
+                    }
+                },
+                "J": {
+                    "Government": {
+                        "1": {
+                            "Government Gr To Open And Operate A/C is Submitted": "\u2713"
+                        },
+                        "2": {
+                            "Higher Authority Letter To Operate A/C With Signatory Name and Designation is Provided or Departmental ID proof of Signatories is obtained.": "\u2713"
+                        }
+                    }
+                }
+            },
+            "Name": null,
+            "S.S.No. / P.F No.": null,
+            "Date": null,
+            "Signature of the Branch Head / Branch Operation Head": null
+        }
+    },
+    "page_12": {
+        "fields": []
+    }
+}
