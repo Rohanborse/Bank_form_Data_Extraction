@@ -1,5 +1,5 @@
 {
-    "page_1": {
+    "image_1": {
         "Application Type": {
             "label": "APPLICATION TYPE:",
             "value": "NEW"
@@ -11,242 +11,349 @@
         "CIF No.": {
             "label": "CIF NO.",
             "value": null,
-            "notes": "Field is blank."
+            "notes": "Value not provided."
         },
         "Current A/C No.": {
             "label": "CURRENT A/C NO.",
             "value": null,
-            "notes": "Field is blank."
+            "notes": "Value not provided."
         },
-        "CKYC Number (Mandatory for KYC/Update Request)": {
-            "label": "CKYC NUMBER (MANDATORY FOR CKYCUPDATE REQUEST):",
+        "CKYC Number (Mandatory for CKYC Update Request)": {
+            "label": "CKYC NUMBER (MANDATORY FOR CKYC UPDATE REQUEST):",
             "value": null,
-            "notes": "Field is blank."
+            "notes": "Value not provided."
         },
         "Account Holder Type": {
             "label": "ACCOUNT HOLDER TYPE:",
-            "value": "US REPORTABLE"
+            "value": null,
+            "notes": "Value not provided."
         },
-        "1. Firm Details": {
-            "label": "1. FIRM DETAILS (Please see General Instruction Point 'C')",
-            "fields": {
-                "Name of the Firm (in Block Letters)": {
-                    "label": "NAME OF THE FIRM: (IN BLOCK LETTERS)",
-                    "value": "RAJ LAXMI MOTORS PVT LTD"
-                },
-                "Name of the Proprietor": {
-                    "label": "NAME OF THE PROPRIETOR:",
-                    "value": "RAJKUMAR SANTOSH JOSHI"
-                },
-                "Date of Formation": {
-                    "label": "DATE OF FORMATION:",
-                    "value": "05062020"
-                },
-                "Place of Formation": {
-                    "label": "PLACE OF FORMATION:",
-                    "value": "PUNE"
-                },
-                "Country of Formation": {
-                    "label": "COUNTRY OF FORMATION*",
-                    "value": "IN"
-                },
-                "PAN": {
-                    "label": "PAN:",
-                    "value": "AAHR P3056D"
-                },
-                "OR Form 60": {
-                    "label": "OR FORM 60",
-                    "value": null,
-                    "notes": "Field is blank."
-                },
-                "TAN": {
-                    "label": "TAN:",
-                    "value": null,
-                    "notes": "Field is blank."
-                },
-                "GSTN": {
-                    "label": "GSTN:",
-                    "value": "27AAHCD6055MIZB"
-                },
-                "Identification Type": {
-                    "label": "IDENTIFICATION TYPE:",
-                    "value": null,
-                    "notes": "Field is blank."
-                }
+        "Name of the Firm (in Block Letters)": {
+            "label": "NAME OF THE FIRM:\n(IN BLOCK LETTERS)",
+            "value": "RAJLAXMI MOTORS PVT LTD"
+        },
+        "Name of the Proprietor": {
+            "label": "NAME OF THE PROPRIETOR:",
+            "value": "RAJKUMAR SANTOSH JOSHI"
+        },
+        "Date of Formation": {
+            "label": "DATE OF FORMATION*",
+            "value": "05062020"
+        },
+        "Place of Formation": {
+            "label": "PLACE OF FORMATION*",
+            "value": "PUNE"
+        },
+        "Country of Formation": {
+            "label": "COUNTRY OF FORMATION*",
+            "value": "IN"
+        },
+        "PAN": {
+            "label": "PAN*:",
+            "value": "AAHRP3056D"
+        },
+        "TAN": {
+            "label": "TAN:",
+            "value": null,
+            "notes": "Value not provided."
+        },
+        "GSTN": {
+            "label": "GSTN:",
+            "value": "27AAHCD6055MIZB"
+        },
+        "Identification Type": {
+            "label": "IDENTIFICATION TYPE*:",
+            "value": null,
+            "notes": "Value not provided."
+        },
+        "Proof of Identity": {
+            "label": "PROOF OF IDENTITY (Pol)*",
+            "value": "REGISTRATION CERTIFICATE"
+        },
+        "Identity Number": {
+            "label": "IDENTITY NUMBER*:",
+            "value": "U74999PN"
+        },
+        "Activity Proof 1": {
+            "label": "ACTIVITY PROOF 1",
+            "value": null,
+            "notes": "Partially illegible handwritten text."
+        },
+        "Activity Proof 1 Number": {
+            "label": "ACTIVITY PROOF NUMBER*:",
+            "value": "2020PTC188901"
+        },
+        "Activity Proof 2": {
+            "label": "ACTIVITY PROOF 2",
+            "value": null,
+            "notes": "Value not provided."
+        },
+        "Tele (Res)": {
+            "label": "TELE (RES.):",
+            "value": "02024452290"
+        },
+        "Mobile No. of Authorised Signatory": {
+            "label": "MOBILE NO. OF AUTHORISED SIGNATORY:",
+            "value": "91-9924425758"
+        },
+        "Tele (Off)": {
+            "label": "TELE (OFF):",
+            "value": "02024453290"
+        },
+        "Email ID": {
+            "label": "EMAIL ID :",
+            "value": "psubhash@gmail.com"
+        },
+        "Fax": {
+            "label": "FAX:",
+            "value": null,
+            "notes": "Value not provided."
+        },
+        "Proof of Address (POA)": {
+            "label": "PROOF OF ADDRESS (PoA)*",
+            "value": "REGISTRATION CERTIFICATE"
+        },
+        "Business/Office Address Details": {
+            "label": "BUSINESS /OFFICE ADDRESS DETAILS*",
+            "value": null,
+            "notes": "Address details are handwritten and may contain minor variations in interpretation."
+        },
+        "Line 1": {
+            "label": "LINE 1*:",
+            "value": "AKAR LANE"
+        },
+        "Line 2": {
+            "label": "LINE 2:",
+            "value": "SNO-654 MIDC D-145"
+        },
+        "Line 3": {
+            "label": "LINE 3:",
+            "value": "BHOSARI"
+        },
+        "District": {
+            "label": "DISTRICT*:",
+            "value": "PUNE"
+        },
+        "City/Town/Village": {
+            "label": "CITY/TOWN/VILLAGE*:",
+            "value": "PUNE"
+        },
+        "Pin/Post Code": {
+            "label": "PIN/POST CODE*:",
+            "value": "411018"
+        },
+        "State/UT Name": {
+            "label": "STATE/UT NAME*",
+            "value": "MAHARASHTRA"
+        },
+        "State/UT Name Code": {
+            "label": "STATE/UT NAME CODE*:",
+            "value": "MH"
+        },
+        "Country Code": {
+            "label": "COUNTRY CODE*:",
+            "value": "IN"
+        },
+        "Country": {
+            "label": "COUNTRY *:",
+            "value": "INDIA"
+        },
+        "Correspondence/Local Address Details": {
+            "label": "CORRESPONDENCE /LOCAL ADDRESS DETAILS*",
+            "value": "SAME AS BUSINESS /OFFICE ADDRESS DETAILS"
+        }
+    },
+    "image_2": {
+        "5. NATURE OF BUSINESS": {
+            "NATURE OF BUSINESS": "MANUFACTURER",
+            "INDUSTRY CLASSIFICATION CODE": "01",
+            "BUSINESS SECTOR CODE": "0011",
+            "ANNUAL TURNOVER": "20,00,000",
+            "FY": "2022",
+            "OTHERS": null,
+            "Notes": "The 'OTHERS' field is left blank."
+        },
+        "6. ACCOUNT VARIANT": {
+            "ACCOUNT VARIANT": "Regular Current Account (MAB - Rs. 5,000/-)"
+        },
+        "7. SERVICES REQUIRED": {
+            "CORPORATE INTERNET BANKING": "VIEWING RIGHTS",
+            "CASH MGMT PRODUCTS": null,
+            "TRANSACTION RIGHTS": true,
+            "BUSINESS DEBIT CARD": "PRIDE",
+            "PREMIUM": true,
+            "POS FACILITY (CARD SWIPING MACHINE)": true,
+            "CHEQUE BOOK": true,
+            "viz CASH PICK UP": true,
+            "e-COLLECTION": true,
+            "e-PAYMENT": true,
+            "UPI/QR CODE": true,
+            "SMS ALERTS": true,
+            "E-HAND SHAKE INSTA DEPOSIT CARD": true
+        },
+        "8. MODE OF OPERATION": {
+            "MODE OF OPERATION": "SINGLY"
+        },
+        "9. COUNTRY OF RESIDENCE AS PER TAX LAWS": {
+            "FINANCIAL INSTITUTION (FI)": false,
+            "NON FINANCIAL ENTITY (NFE)": true,
+            "ACTIVE NFE OR PASSIVE NFE": "ACTIVE NFE",
+            "TAX RESIDENT OF INDIA ONLY AND NOT OF ANY OTHER COUNTRY OUTSIDE INDIA": true
+        },
+        "MLM UNDERTAKING": {
+            "MLM UNDERTAKING": "I Declare that my Proprietorship Firm is not a MLM (Multi Level Marketing) Firm"
+        }
+    },
+    "image_3": {
+        "Form 60 (In Case PAN is Not Available)": {
+            "NAME": {
+                "label": "NAME",
+                "value": null,
+                "notes": "Field is blank."
+            },
+            "SAME AS ID PROOF": {
+                "label": "SAME AS ID PROOF",
+                "value": null,
+                "notes": "Field is blank."
+            },
+            "IF APPLIED FOR PAN AND IT IS NOT YET GENERATED, ENTER DATE OF APPLICATION": {
+                "label": "IF APPLIED FOR PAN AND IT IS NOT YET GENERATED, ENTER DATE OF APPLICATION",
+                "value": null,
+                "notes": "Field is blank."
+            },
+            "& THE ACKNOWLEDGEMENT NUMBER": {
+                "label": "& THE ACKNOWLEDGEMENT NUMBER",
+                "value": null,
+                "notes": "Field is blank."
+            },
+            "IF PAN IS NOT APPLIED, FILL ESTIMATED TOTAL INCOME (INCLUDING INCOME OF SPOUSE, MINOR CHILD, ETC) AS PER SECTION 64 OF INCOME TAX ACT 1961 FOR FINANCIAL YEAR IN WHICH THE ABOVE TRANSACTION IS HELD": {
+                "label": "IF PAN IS NOT APPLIED, FILL ESTIMATED TOTAL INCOME (INCLUDING INCOME OF SPOUSE, MINOR CHILD, ETC) AS PER SECTION 64 OF INCOME TAX ACT 1961 FOR FINANCIAL YEAR IN WHICH THE ABOVE TRANSACTION IS HELD",
+                "value": null,
+                "notes": "Field is blank."
+            },
+            "AGRICULTURE INCOME (RS)": {
+                "label": "AGRICULTURE INCOME (RS)",
+                "value": "25000",
+                "notes": null
+            },
+            "OTHER THAN AGRICULTURAL INCOME": {
+                "label": "OTHER THAN AGRICULTURAL INCOME",
+                "value": "10000",
+                "notes": null
+            },
+            "VERIFICATION": {
+                "label": "VERIFICATION",
+                "value": "RAJKUMAR SANTOSH JOSHI",
+                "notes": null
+            },
+            "Verified today, the": {
+                "label": "Verified today, the",
+                "value": "18 day of NOV 2024",
+                "notes": null
+            },
+            "Place:": {
+                "label": "Place:",
+                "value": "PUNE",
+                "notes": null
+            },
+            "Signature of the Declarant": {
+                "label": "Signature of the Declarant",
+                "value": null,
+                "notes": "Field is blank."
             }
         },
-        "2. Proof of Identity": {
-            "label": "2. PROOF OF IDENTITY (Poll) (Please refer 'D' in General Instructions) Any Two documents to be obtained",
-            "fields": {
-                "Registration Certificate": {
-                    "label": "REGISTRATION CERTIFICATE",
-                    "value": null,
-                    "notes": "Checkbox is unchecked."
-                },
-                "Activity Proof 1": {
-                    "label": "ACTIVITY PROOF 1",
-                    "value": "CAEN"
-                },
-                "Identity Number": {
-                    "label": "IDENTITY NUMBER:",
-                    "value": "U74999PN2020PTC188901"
-                },
-                "Activity Proof 2": {
-                    "label": "ACTIVITY PROOF 2",
-                    "value": null,
-                    "notes": "Checkbox is unchecked and field is blank."
-                },
-                "Activity Proof Number": {
-                    "label": "ACTIVITY PROOF NUMBER:",
-                    "value": null,
-                    "notes": "Field is blank."
-                }
+        "Declaration Cum Undertaking for Opening / Continuing Current Account": {
+            "Name of the Customer": {
+                "label": "Name of the Customer",
+                "value": "RAJ LAXMI MOTORS PVT LTD",
+                "notes": null
+            },
+            "Bank Name": {
+                "label": "Bank Name",
+                "value": "SVC CO-OP BANK",
+                "notes": null
+            },
+            "SBI": {
+                "label": "SBI",
+                "value": null,
+                "notes": "Field is blank."
+            },
+            "Bank1:": {
+                "label": "Bank1:",
+                "value": "10,000.00",
+                "notes": null
+            },
+            "Bank2:": {
+                "label": "Bank2:",
+                "value": null,
+                "notes": "Field is blank."
+            },
+            "Total": {
+                "label": "Total",
+                "value": "10,000.00",
+                "notes": null
+            },
+            "TOTAL CREDIT EXPOSURE": {
+                "label": "TOTAL CREDIT EXPOSURE",
+                "value": null,
+                "notes": "No value selected."
+            },
+            "LESS THAN RS. 5 CRS": {
+                "label": "LESS THAN RS. 5 CRS",
+                "value": null,
+                "notes": "Checkbox not checked."
+            },
+            "> RS. 5 CRS": {
+                "label": "> RS. 5 CRS",
+                "value": null,
+                "notes": "Checkbox not checked."
+            },
+            "EXEMPTED CATEGORY": {
+                "label": "EXEMPTED CATEGORY",
+                "value": "We RAJ LAXMI MOTORS PVT LTD have to advise that I/We have no credit exposure with any Banks including SBI or, our total credit exposure with all the Banks (including SBI) is less than Rs.5.00 crores.",
+                "notes": null
+            },
+            "Signature of the Customer(s) / Authorised Representative(s)": {
+                "label": "Signature of the Customer(s) / Authorised Representative(s)",
+                "value": null,
+                "notes": "Field is blank."
             }
         },
-        "3. Contact Details": {
-            "label": "3. CONTACT DETAILS (All communications will be sent on provided Mobile no./Email- ID) (Please refer General Instruction 'F')",
-            "fields": {
-                "Tele (Res)": {
-                    "label": "TELE (RES):",
-                    "value": "02024452290"
-                },
-                "Tele (Off)": {
-                    "label": "TELE (OFF):",
-                    "value": "02024453290"
-                },
-                "Mobile No. of Authorised Signatory": {
-                    "label": "MOBILE NO. OF AUTHORISED SIGNATORY:",
-                    "value": "91-9924425758"
-                },
-                "Email ID": {
-                    "label": "EMAIL ID:",
-                    "value": "psubhnsh@gmail.com"
-                },
-                "Fax": {
-                    "label": "FAX:",
-                    "value": null,
-                    "notes": "Field is blank."
-                }
-            }
-        },
-        "4. Proof of Address": {
-            "label": "4. PROOF OF ADDRESS (POA) (Copies of the document, as applicable, need to be submitted) (Please refer General Instruction 'E')",
-            "fields": {
-                "4.1 Business/Office Address Details": {
-                    "label": "4.1 BUSINESS/OFFICE ADDRESS DETAILS",
-                    "fields": {
-                        "Proof of Address": {
-                            "label": "PROOF OF ADDRESS:",
-                            "value": "REGISTRATION CERTIFICATE"
-                        },
-                        "Line 1": {
-                            "label": "LINE 1:",
-                            "value": "AKAR LANE"
-                        },
-                        "Line 2": {
-                            "label": "LINE 2:",
-                            "value": "SNO-654 MIDC D-145"
-                        },
-                        "Line 3": {
-                            "label": "LINE 3:",
-                            "value": "BHOSARI"
-                        },
-                        "District": {
-                            "label": "DISTRICT:",
-                            "value": "PUNE 411018"
-                        },
-                        "State/UT Name": {
-                            "label": "STATE/UT NAME*",
-                            "value": "MAHARASHTRA"
-                        },
-                        "State/UT Name Code": {
-                            "label": "STATE/UT NAME CODE:",
-                            "value": "MH"
-                        },
-                        "Country Code": {
-                            "label": "COUNTRY CODE:",
-                            "value": "18"
-                        },
-                        "City/Town/Village": {
-                            "label": "CITY/TOWN/VILLAGE:",
-                            "value": "PUNE"
-                        },
-                        "Pin/Post Code": {
-                            "label": "PIN/POST CODE:",
-                            "value": null,
-                            "notes": "Field is blank."
-                        },
-                        "Country": {
-                            "label": "COUNTRY:",
-                            "value": "INDIA"
-                        }
-                    }
-                },
-                "4.2 Correspondence/Local Address Details": {
-                    "label": "4.2 CORRESPONDENCE/LOCAL ADDRESS DETAILS",
-                    "fields": {
-                        "Same as Business/Office Address Details": {
-                            "label": "SAME AS BUSINESS / OFFICE ADDRESS DETAILS*",
-                            "value": "true",
-                            "notes": "Checkbox is checked."
-                        },
-                        "Proof of Address": {
-                            "label": "PROOF OF ADDRESS:",
-                            "value": null,
-                            "notes": "Field is blank."
-                        },
-                        "Line 1": {
-                            "label": "LINE 1:",
-                            "value": null,
-                            "notes": "Field is blank."
-                        },
-                        "Line 2": {
-                            "label": "LINE 2:",
-                            "value": null,
-                            "notes": "Field is blank."
-                        },
-                        "Line 3": {
-                            "label": "LINE 3:",
-                            "value": null,
-                            "notes": "Field is blank."
-                        },
-                        "District": {
-                            "label": "DISTRICT:",
-                            "value": null,
-                            "notes": "Field is blank."
-                        },
-                        "State/UT Name": {
-                            "label": "STATE/UT NAME*",
-                            "value": null,
-                            "notes": "Field is blank."
-                        },
-                        "State/UT Name Code": {
-                            "label": "STATE/UT NAME CODE:",
-                            "value": null,
-                            "notes": "Field is blank."
-                        },
-                        "Country Code": {
-                            "label": "COUNTRY CODE:",
-                            "value": null,
-                            "notes": "Field is blank."
-                        },
-                        "City/Town/Village": {
-                            "label": "CITY/TOWN/VILLAGE:",
-                            "value": null,
-                            "notes": "Field is blank."
-                        },
-                        "Pin/Post Code": {
-                            "label": "PIN/POST CODE:",
-                            "value": null,
-                            "notes": "Field is blank."
-                        },
-                        "Country": {
-                            "label": "COUNTRY:",
-                            "value": null,
-                            "notes": "Field is blank."
-                        }
-                    }
-                }
+        "Acknowledgement DA-1": {
+            "Name of the Nominee": {
+                "label": "Name of the Nominee",
+                "value": null,
+                "notes": "Field is blank."
+            },
+            "With respect to your Account Number": {
+                "label": "With respect to your Account Number",
+                "value": null,
+                "notes": "Field is blank."
+            },
+            "Registration No.": {
+                "label": "Registration No.",
+                "value": null,
+                "notes": "Field is blank."
+            },
+            "Date:": {
+                "label": "Date:",
+                "value": null,
+                "notes": "Field is blank."
+            },
+            "Age:": {
+                "label": "Age:",
+                "value": null,
+                "notes": "Field is blank."
+            },
+            "Years:": {
+                "label": "Years:",
+                "value": null,
+                "notes": "Field is blank."
+            },
+            "Signature of Bank Official with Seal": {
+                "label": "Signature of Bank Official with Seal",
+                "value": null,
+                "notes": "Field is blank."
             }
         }
     }
