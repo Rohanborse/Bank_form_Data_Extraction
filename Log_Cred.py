@@ -80,8 +80,8 @@ user_prompt = """
             For each listed proof type, extract:
             
             Primary Proof of Identity Type (e.g., "Registration Certificate", "GST Certificate")
-            Activity Proof 1
-            Activity Proof 2
+            Activity Proof 1 (Cheak For the tick in Cheak box and if Someting writen after Activity Proof 1 then extract that also in this field and only Extract hand writen not water mark  )
+            Activity Proof 2 (Cheak For the tick in Cheak box and if Someting writen after Activity Proof 2 then extract that also in this field and only Extract hand writen not water mark )
             Identity Number (this field is always more than 20 digit not less than 20 digit in any situations)
             Activity proof number (it i alswas 16 digit not more than or less than)
             If multiple documents are listed, extract all details while distinguishing between them.
