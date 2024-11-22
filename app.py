@@ -70,38 +70,38 @@ def gemini_output(image_path, system_prompt, user_prompt):
         return ""
 
 
-# Main function to process all files (PDF and images) and consolidate results
 def process_files(file_paths, system_prompt, user_prompt):
     """Extract data from provided files (PDF or images) and consolidate into a single JSON."""
     consolidated_data = {}  # Use a dictionary to create a single JSON structure
 
-    for file_path in file_paths:
-        print(f"Processing file: {file_path}...")
+    for idx, file_path in enumerate(file_paths, start=1):
+        page_name = f"Page {idx}"  # Generate standardized page names
+        print(f"Processing file: {file_path} as {page_name}...")
 
         if file_path.lower().endswith('.pdf'):
             # If it's a PDF, convert to images first
             image_paths = pdf_to_image(file_path)
             pdf_data = []  # Temporary list to hold data for this PDF
-            for page_number, image_path in enumerate(image_paths):
-                print(f"Processing PDF page {page_number + 1}...")
+            for page_number, image_path in enumerate(image_paths, start=1):
+                print(f"Processing PDF page {page_number}...")
                 output_json = gemini_output(image_path, system_prompt, user_prompt)
                 try:
                     page_data = json.loads(output_json)
                     pdf_data.append(page_data)
                 except json.JSONDecodeError as e:
-                    print(f"Error parsing JSON for page {page_number + 1}: {e}")
+                    print(f"Error parsing JSON for page {page_number}: {e}")
                     pdf_data.append({"error": "Failed to extract data"})
-            consolidated_data[file_path] = pdf_data  # Store all PDF page data under its filename
+            consolidated_data[page_name] = pdf_data  # Store all PDF page data under its page name
 
         elif file_path.lower().endswith(('.png', '.jpg', '.jpeg')):
             # If it's an image, process it directly
             output_json = gemini_output(file_path, system_prompt, user_prompt)
             try:
                 image_data = json.loads(output_json)
-                consolidated_data[file_path] = image_data  # Use filename as key for image data
+                consolidated_data[page_name] = image_data  # Use page name as key for image data
             except json.JSONDecodeError as e:
                 print(f"Error parsing JSON for image {file_path}: {e}")
-                consolidated_data[file_path] = {"error": "Failed to extract data"}
+                consolidated_data[page_name] = {"error": "Failed to extract data"}
 
         else:
             print(f"Unsupported file format: {file_path}. Skipping...")

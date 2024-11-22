@@ -37,6 +37,22 @@ user_prompt = """
           previous any field
           For Below all parameter Specific Section present then only extrac the data other wise make it null and dont consider 
           for the output
+        {Groups of the Sections  :       Group 1 
+                                            Application Type and Account Details
+                                            Sole Proprietor/Firm Details
+                                            Proof of Identity (POI)
+                                            Proof of Address (POA)
+                                            Contact Details 
+                                        Group 2
+                                            Nature of Business
+                                            Account Variant
+                                            Service Requirements
+                                            Mode of Operation
+                                            Country of Residence as per Tax Laws
+                                        Group 3
+                                            Form 60 (If PAN is Not Available)
+                                            Declaration and Undertaking
+               on page only one group sections will be present  Any page have only one group of section }
         
         1. Application Type and Account Details
             Extract all fields under this section, including:
@@ -110,10 +126,10 @@ user_prompt = """
         7. Account Variant
             Preferred Account Variant (e.g., "Regular", "Gold", "Platinum")
         
-        8. Service Requirements (for this Section all Cheak Boxs are present at right hand side )
+        8. Service Requirements (for this Section all Cheak Boxs are present at right hand side some at exact right some little bit far  but all Cheak boxes are in the Right hand side  )
             For each service listed, indicate its checkbox status. Example:
             
-            Corporate Internet Banking  (Viewing Rights (True/False) , Transaction Rights (True/False))
+            Corporate Internet Banking [one of this wil true both will never true so focus on cheak box ] ( (Viewing Rights (True/False) , Transaction Rights (True/False)  )
             Business Debit Card (e.g., "Pride", "Premium")
             Cash Management Products (e.g., "Cash Pick-up", "e-Collection", "e-Payment")
             Registration for Positive Pay System ("Yes"/"No")

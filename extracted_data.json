@@ -1,252 +1,129 @@
 {
-    "page_1": {
-        "Application Type": {
-            "label": "APPLICATION TYPE:",
-            "value": "NEW"
-        },
-        "Date": {
-            "label": "DATE:",
-            "value": "18112024"
-        },
-        "CIF No.": {
-            "label": "CIF NO.",
-            "value": null,
-            "notes": "Field is blank."
-        },
-        "Current A/C No.": {
-            "label": "CURRENT A/C NO.",
-            "value": null,
-            "notes": "Field is blank."
-        },
-        "CKYC Number (Mandatory for KYC/Update Request)": {
-            "label": "CKYC NUMBER (MANDATORY FOR CKYCUPDATE REQUEST):",
-            "value": null,
-            "notes": "Field is blank."
-        },
-        "Account Holder Type": {
-            "label": "ACCOUNT HOLDER TYPE:",
-            "value": "US REPORTABLE"
-        },
-        "1. Firm Details": {
-            "label": "1. FIRM DETAILS (Please see General Instruction Point 'C')",
-            "fields": {
-                "Name of the Firm (in Block Letters)": {
-                    "label": "NAME OF THE FIRM: (IN BLOCK LETTERS)",
-                    "value": "RAJ LAXMI MOTORS PVT LTD"
+    "Page 1": {
+        "Group 1": {
+            "Application Type and Account Details": {
+                "Application Type": "New",
+                "Account Type": "Current",
+                "Current Account Number": "Not Filled",
+                "CIF Number": "Not Filled",
+                "Branch Code": "Not Filled",
+                "Cycle Number": "Not Filled",
+                "Date of Application": "18/11/2024",
+                "Account Holder Type": "US REPORTABLE"
+            },
+            "Sole Proprietor/Firm Details": {
+                "Name of Firm/Business": "RAJLAXMI MOTORS PVT LTD",
+                "Name of Proprietor": "RAJKUMAR SANTOSH JOSHI",
+                "Place of Formation": "PUNE",
+                "Date of Formation": "05/06/2020",
+                "Business PAN Number": "AAHRP3056D",
+                "Form 60": false,
+                "Business TAN Number": "Not Filled",
+                "GSTN Number": "27AAHCD6055MIZB",
+                "Other identification numbers": null
+            },
+            "Proof of Identity (POI)": {
+                "Primary Proof of Identity Type": "Registration Certificate",
+                "Activity Proof 1": "Not Filled",
+                "Activity Proof 2": "Not Filled",
+                "Identity Number": "U74999PN2020PTC188901",
+                "Activity proof number": null
+            },
+            "Proof of Address (POA)": {
+                "Business/Office Address": {
+                    "Address Line 1": "AKAR LANE",
+                    "Address Line 2": "SNO-654 MIDC D-145",
+                    "Address Line 3": "BHOSARI",
+                    "City/District": "PUNE",
+                    "State": "MAHARASHTRA",
+                    "Pin/Post Code": "411018",
+                    "Country Code": "IN",
+                    "Country Name": "INDIA"
                 },
-                "Name of the Proprietor": {
-                    "label": "NAME OF THE PROPRIETOR:",
-                    "value": "RAJKUMAR SANTOSH JOSHI"
-                },
-                "Date of Formation": {
-                    "label": "DATE OF FORMATION:",
-                    "value": "05062020"
-                },
-                "Place of Formation": {
-                    "label": "PLACE OF FORMATION:",
-                    "value": "PUNE"
-                },
-                "Country of Formation": {
-                    "label": "COUNTRY OF FORMATION*",
-                    "value": "IN"
-                },
-                "PAN": {
-                    "label": "PAN:",
-                    "value": "AAHR P3056D"
-                },
-                "OR Form 60": {
-                    "label": "OR FORM 60",
-                    "value": null,
-                    "notes": "Field is blank."
-                },
-                "TAN": {
-                    "label": "TAN:",
-                    "value": null,
-                    "notes": "Field is blank."
-                },
-                "GSTN": {
-                    "label": "GSTN:",
-                    "value": "27AAHCD6055MIZB"
-                },
-                "Identification Type": {
-                    "label": "IDENTIFICATION TYPE:",
-                    "value": null,
-                    "notes": "Field is blank."
+                "Correspondence/Local Address": {
+                    "Same as Business/Office Address": true,
+                    "Address Line 1": "Not Filled",
+                    "Address Line 2": "Not Filled",
+                    "Address Line 3": "Not Filled",
+                    "City/District": "Not Filled",
+                    "State": "Not Filled",
+                    "Pin/Post Code": "Not Filled",
+                    "Country Code": "Not Filled",
+                    "Country Name": "Not Filled"
                 }
+            },
+            "Contact Details": {
+                "Tele(RES.)": "02024452290",
+                "Tele(OFF)": "02024453290",
+                "Mobile Number of authorised signatory": "91-9924425758",
+                "FAX": "Not Filled",
+                "Email Address": "psubhash@gmail.com"
             }
-        },
-        "2. Proof of Identity": {
-            "label": "2. PROOF OF IDENTITY (Poll) (Please refer 'D' in General Instructions) Any Two documents to be obtained",
-            "fields": {
-                "Registration Certificate": {
-                    "label": "REGISTRATION CERTIFICATE",
-                    "value": null,
-                    "notes": "Checkbox is unchecked."
+        }
+    },
+    "Page 2": {
+        "Group 2": {
+            "Nature of Business": {
+                "Type of Business Activity": "Manufacturer",
+                "Industry Classification Code": "00011",
+                "Business Sector Code": "00011",
+                "Sector Description": "AGRICULTURE / FISHING",
+                "Approximate Annual Turnover": "2000000",
+                "Approximate Turnover Year": "2022-23",
+                "Source of Funds": "Business Income"
+            },
+            "Account Variant": {
+                "Preferred Account Variant": "Regular Current Account"
+            },
+            "Service Requirements": {
+                "Corporate Internet Banking": {
+                    "Viewing Rights": false,
+                    "Transaction Rights": true
                 },
-                "Activity Proof 1": {
-                    "label": "ACTIVITY PROOF 1",
-                    "value": "CAEN"
+                "Business Debit Card": "Premium",
+                "Cash Management Products": {
+                    "Cash Pick-up": false,
+                    "e-Collection": false,
+                    "e-Payment": false
                 },
-                "Identity Number": {
-                    "label": "IDENTITY NUMBER:",
-                    "value": "U74999PN2020PTC188901"
-                },
-                "Activity Proof 2": {
-                    "label": "ACTIVITY PROOF 2",
-                    "value": null,
-                    "notes": "Checkbox is unchecked and field is blank."
-                },
-                "Activity Proof Number": {
-                    "label": "ACTIVITY PROOF NUMBER:",
-                    "value": null,
-                    "notes": "Field is blank."
-                }
+                "Registration for Positive Pay System": "Yes",
+                "POS Facility (Card Swiping Machine)": true,
+                "UPI/QR Code": true,
+                "SMS Alerts": true,
+                "Cheque Book": true,
+                "E-Hand Shake Insta Deposit Card": true
+            },
+            "Mode of Operation": {
+                "Mode": "Singly"
+            },
+            "Country of Residence as per Tax Laws": {
+                "Financial Institution (FI)": false,
+                "Non Financial Entity (NFE)": true,
+                "Active NFE": true,
+                "Passive NFE": false,
+                "Tax Resident of India only and not of any other country outside India": true
             }
-        },
-        "3. Contact Details": {
-            "label": "3. CONTACT DETAILS (All communications will be sent on provided Mobile no./Email- ID) (Please refer General Instruction 'F')",
-            "fields": {
-                "Tele (Res)": {
-                    "label": "TELE (RES):",
-                    "value": "02024452290"
+        }
+    },
+    "Page 3": {
+        "Group 3": {
+            "Form 60 (If PAN is Not Available)": {
+                "Name": "RAJKUMAR",
+                "If applied for PAN but not yet generated": null,
+                "Date of Application": null,
+                "Acknowledgment Number": null,
+                "If PAN is not applied": true,
+                "Agriculture Income": "25000",
+                "Other than Agriculture Income": "10000",
+                "Verification Paragraph": "do hereby declare that what is stated above is true to the best of my knowledge and belief. I further declare I do not have a permanent account number and my/our estimated total income (including income of spouse, minor child, etc.) as per section 64 of Income Tax Act 1961 computed in accordance with the provisions of Income Tax Act 1961 for the financial year in which the above transaction is held will be less than maximum amount not chargeable to tax."
+            },
+            "Declaration and Undertaking": {
+                "Name of the Customer": "RAJ LAXMI MOTORS PVT LTD",
+                "Table Content": {
+                    "SBI": "10,000.00",
+                    "Total": "10,000.00"
                 },
-                "Tele (Off)": {
-                    "label": "TELE (OFF):",
-                    "value": "02024453290"
-                },
-                "Mobile No. of Authorised Signatory": {
-                    "label": "MOBILE NO. OF AUTHORISED SIGNATORY:",
-                    "value": "91-9924425758"
-                },
-                "Email ID": {
-                    "label": "EMAIL ID:",
-                    "value": "psubhnsh@gmail.com"
-                },
-                "Fax": {
-                    "label": "FAX:",
-                    "value": null,
-                    "notes": "Field is blank."
-                }
-            }
-        },
-        "4. Proof of Address": {
-            "label": "4. PROOF OF ADDRESS (POA) (Copies of the document, as applicable, need to be submitted) (Please refer General Instruction 'E')",
-            "fields": {
-                "4.1 Business/Office Address Details": {
-                    "label": "4.1 BUSINESS/OFFICE ADDRESS DETAILS",
-                    "fields": {
-                        "Proof of Address": {
-                            "label": "PROOF OF ADDRESS:",
-                            "value": "REGISTRATION CERTIFICATE"
-                        },
-                        "Line 1": {
-                            "label": "LINE 1:",
-                            "value": "AKAR LANE"
-                        },
-                        "Line 2": {
-                            "label": "LINE 2:",
-                            "value": "SNO-654 MIDC D-145"
-                        },
-                        "Line 3": {
-                            "label": "LINE 3:",
-                            "value": "BHOSARI"
-                        },
-                        "District": {
-                            "label": "DISTRICT:",
-                            "value": "PUNE 411018"
-                        },
-                        "State/UT Name": {
-                            "label": "STATE/UT NAME*",
-                            "value": "MAHARASHTRA"
-                        },
-                        "State/UT Name Code": {
-                            "label": "STATE/UT NAME CODE:",
-                            "value": "MH"
-                        },
-                        "Country Code": {
-                            "label": "COUNTRY CODE:",
-                            "value": "18"
-                        },
-                        "City/Town/Village": {
-                            "label": "CITY/TOWN/VILLAGE:",
-                            "value": "PUNE"
-                        },
-                        "Pin/Post Code": {
-                            "label": "PIN/POST CODE:",
-                            "value": null,
-                            "notes": "Field is blank."
-                        },
-                        "Country": {
-                            "label": "COUNTRY:",
-                            "value": "INDIA"
-                        }
-                    }
-                },
-                "4.2 Correspondence/Local Address Details": {
-                    "label": "4.2 CORRESPONDENCE/LOCAL ADDRESS DETAILS",
-                    "fields": {
-                        "Same as Business/Office Address Details": {
-                            "label": "SAME AS BUSINESS / OFFICE ADDRESS DETAILS*",
-                            "value": "true",
-                            "notes": "Checkbox is checked."
-                        },
-                        "Proof of Address": {
-                            "label": "PROOF OF ADDRESS:",
-                            "value": null,
-                            "notes": "Field is blank."
-                        },
-                        "Line 1": {
-                            "label": "LINE 1:",
-                            "value": null,
-                            "notes": "Field is blank."
-                        },
-                        "Line 2": {
-                            "label": "LINE 2:",
-                            "value": null,
-                            "notes": "Field is blank."
-                        },
-                        "Line 3": {
-                            "label": "LINE 3:",
-                            "value": null,
-                            "notes": "Field is blank."
-                        },
-                        "District": {
-                            "label": "DISTRICT:",
-                            "value": null,
-                            "notes": "Field is blank."
-                        },
-                        "State/UT Name": {
-                            "label": "STATE/UT NAME*",
-                            "value": null,
-                            "notes": "Field is blank."
-                        },
-                        "State/UT Name Code": {
-                            "label": "STATE/UT NAME CODE:",
-                            "value": null,
-                            "notes": "Field is blank."
-                        },
-                        "Country Code": {
-                            "label": "COUNTRY CODE:",
-                            "value": null,
-                            "notes": "Field is blank."
-                        },
-                        "City/Town/Village": {
-                            "label": "CITY/TOWN/VILLAGE:",
-                            "value": null,
-                            "notes": "Field is blank."
-                        },
-                        "Pin/Post Code": {
-                            "label": "PIN/POST CODE:",
-                            "value": null,
-                            "notes": "Field is blank."
-                        },
-                        "Country": {
-                            "label": "COUNTRY:",
-                            "value": null,
-                            "notes": "Field is blank."
-                        }
-                    }
-                }
+                "Declaration Paragraph": "We RAJ LAXMI MOTORS PVT LTD have to advise that I/We have no credit exposure with any Banks including SBI or, our total credit exposure with all the Banks (including SBI) is less than Rs.5.00 crores. I / We undertake to inform SBI in case of any changes to my/ our CC/OD/ Other Credit facilities. I/We also understand that it will be my/our sole responsibility to inform SBI in writing regarding any changes in the above undertaking and/or when the credit facilities availed by me/us from the banking system reaches Rs.5.00 crores or more. I/We also agree to provide any documents that may be required from me/us time to time in terms of RBI regulations / SBI requirements for continuing my Current Account with SBI.I/We also agree to close the Current Account as and when demanded by SBI and understand thatSBI is empowered to close / discontinue the Account if I/We fail to respond in a reasonable time to any notice issued in this regard."
             }
         }
     }
