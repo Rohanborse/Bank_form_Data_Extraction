@@ -16,53 +16,150 @@ def local_login():
         return False
 
 
+api_key= "AIzaSyCraN2qjLcwFoWlmmCyFuWGhAQmcWYuQZE"
 # ----------------------------------------------------------------------------------------------------------------------------------------------
 
 
 system_prompt = """
         You are a specialist in extracting structured data from bank account opening forms and loan account forms.
-        These forms may include both printed and handwritten data. Your task is to accurately interpret all the content in the form, regardless of format or handwriting style.
+        These forms may include both printed and handwritten data. Your task is to accurately interpret all the content
+         in the form, regardless of format or handwriting style.
         Handle handwritten text carefully, considering variations in handwriting.
         """
 
-
 user_prompt = """
-    You are an intelligent assistant specialized in extracting structured data from bank account opening forms and loan account forms.
-    Given the text extracted from these forms, please extract **all identifiable fields** in JSON format. 
+          Analyze the images provided of the "Current Account Opening Form for Sole Proprietorship Firm" with
+          extreme precision. Extract and organize all visible details, including headers, subheaders, 
+          footnotes, field names, instructions, disclaimers, and form sections. Ensure no details are missed.
+          Present the extracted data in a well-structured and machine-readable JSON format, following the 
+          detailed structure outlined below:
+          and if you find data related to specific data along with that field then only extract and show dont take reference of 
+          previous any field
+          For Below all parameter Specific Section present then only extrac the data other wise make it null and dont consider 
+          for the output
+        
+        1. Application Type and Account Details
+            Extract all fields under this section, including:
+            
+            Application Type (e.g., "New", "Update")
+            Account Type (e.g., "Savings", "Current", "Others" - specify if mentioned)
+            Current Account Number ("Not Filled" if blank)
+            CIF Number, Branch Code, or Cycle Number
+            Date of Application ("dd/mm/yyyy")
+            Account Holder Type (e.g., "US REPORTABLE", "OTHER REPORTABLE")
+        
+        2. Sole Proprietor/Firm Details
+            Extract the following:
+            
+            Name of Firm/Business
+            Name of Proprietor
+            Place of Formation
+            Date of Formation ("dd/mm/yyyy")
+            Business PAN Number or checkbox for "Form 60" (indicate if checked)
+            Business TAN Number
+            GSTN Number
+            Any other identification numbers or additional notes
+        
+        3. Proof of Identity (POI)
+            For each listed proof type, extract:
+            
+            Primary Proof of Identity Type (e.g., "Registration Certificate", "GST Certificate")
+            Activity Proof 1
+            Activity Proof 2
+            Identity Number (this field is always more than 20 digit not less than 20 digit in any situations)
+            Activity proof number (it i alswas 16 digit not more than or less than)
+            If multiple documents are listed, extract all details while distinguishing between them.
+        
+        
+        4. Proof of Address (POA)
+            Extract fields for both Business/Office Address and Correspondence/Local Address (if different):
+            
+            Address Line 1
+            Address Line 2
+            Address Line 3
+            City/District
+            State
+            Pin/Post Code
+            Country Code and Name
+            
+            Same as Business/Office Address : If the checkbox for "Same as Business/Office Address" is ticked, mark 
+            Correspondence/Local Address fields as "Not Filled".
+        
+        5. Contact Details
+            Extract the following:
+            
+            Tele(RES.)
+            Tele(OFF)
+            Mobile Number of authorised signatory
+            FAX
+            Email Address
+        
+        6. Nature of Business
+            Capture:
+            
+            Type of Business Activity (e.g., "Manufacturer", "Trader", "Service Provider", "Retailer", "Other")
+            Industry Classification Code (if specified)
+            Business Sector Code
+            Sector Description
+            Approximate Annual Turnover (e.g., "Amount")
+            Approximate Turnover Year (e.g., "2020-21")
+            Source of Funds (e.g., "Business Income", "Investments", "Donations")
+            Include any additional fields or checkboxes in this section.
+        
+        
+        7. Account Variant
+            Preferred Account Variant (e.g., "Regular", "Gold", "Platinum")
+        
+        8. Service Requirements (for this Section all Cheak Boxs are present at right hand side )
+            For each service listed, indicate its checkbox status. Example:
+            
+            Corporate Internet Banking  (Viewing Rights (True/False) , Transaction Rights (True/False))
+            Business Debit Card (e.g., "Pride", "Premium")
+            Cash Management Products (e.g., "Cash Pick-up", "e-Collection", "e-Payment")
+            Registration for Positive Pay System ("Yes"/"No")
+            For sub-services (e.g., "POS Facility", "Cheque Machine", "UPI/QR Code","SMS Alerts", "E-Hand Shake Insta Deposit Card")
+            , include details only if their corresponding checkboxes are ticked.
+        
+        9. Mode of Operation
+            Specify Mode (e.g., "Singly", "Others" with additional details if provided)
+        
+        10. Country of Residence as per Tax Laws
+            Extract all checkboxes and their corresponding labels.
+        
+        11. Form 60 (If PAN is Not Available)
+            Capture the following fields:
+        
+            Name (must match ID proof)
+            If applied for PAN but not yet generated:
+            Date of Application
+            Acknowledgment Number
+            If PAN is not applied:
+            Agriculture Income ("True"/"False")
+            Other than Agriculture Income ("True"/"False")
+            Verification Paragraph
+            
+        13. Declaration and Undertaking
+            Extract the following:
+        
+            Name of the Customer
+            Table Content (e.g., "Total Credit Exposure")
+            Declaration Paragraph
+        
+        
+        VERY IMPORTANT NOTE : 1) if some section Not present in images then Extract the data from that section only dump rest of
+                                 the section dont include it in the out put" (this is very main part dont miss this )
+                              2) and it is not necessary that all section that is mentioned above is need to present in the 
+                                 every image some section will not be present so dont consider theM for output  
+                              3) All Section that is given above is for the reference Dont give output like above section
+            
+        Important Notes for Extraction:
+        Preserve Formatting and Structure: Ensure extracted data reflects the original form's layout and logical order.
+        Capture All Field Names: Include fields even if blank or optional, marking them as "Not Filled".
+        Handwritten Details: Accurately transcribe all handwritten content.
+        Extract Marginal Notes: Include notes, footnotes, page headers, footers, or marginal instructions.
+        Language Content: Extract text in all visible languages, noting the language for each.
+        Visual Elements: Include logos, stamps, or signatures as annotations/metadata.
+        Exclude Missing Sections: If a section is absent, omit it from the output."""
 
-    For each field, include the following:
-    - The field's label or description as it appears on the form.
-    - The corresponding value, as provided (whether printed or handwritten).
-    - Notes if any data is illegible or ambiguous.
-
-    Provide the extracted data in a structured and human-readable JSON format, preserving the hierarchy and relationships between fields if applicable.
-    If any field cannot be clearly identified, include it with a value of "null" and an appropriate note.  
-    and JSON should be in key value pair (key means parameter and value means the content of the parameter)  
-    
-    """
-
-# ------------------------------------------------------------------------------------------------------------------------------------------
-
-API_KEY = "AIzaSyCP6JZiT1SCjT7d0R1WHwS6mt7BO3btvcs"
-
-# ------------------------------------------------------------------------------------------------------------------------------------------
-
-system_prompt_1 = """You are a specialist in extracting structured data from bank account opening forms and loan account forms. These forms may include both printed and handwritten data. Your task is to accurately interpret all the content in the form, regardless of format or handwriting style.
-
-You will generate a structured tabular representation of all the data, with each row representing a field or a data point extracted from the form. Each column should represent a specific aspect or category of the form, such as "Field Label," "Field Value," and "Notes." Ensure all data is organized clearly for further processing, suitable for Excel export.
-
-Handle handwritten text carefully, considering variations in handwriting, and include the corresponding notes where needed.
-"""
 
 
-user_prompt_1 = """You are an intelligent assistant specialized in extracting structured data from bank account opening forms and loan account forms. Given the text extracted from these forms, please extract **all identifiable fields** and organize them in a table format for Excel generation.
-
-For each field, please provide the following columns:
-1. **Field Label**: The label or description of the field as it appears on the form.
-2. **Field Value**: The corresponding value, whether it is printed or handwritten.
-3. **Notes**: Any notes or explanations if the data is illegible, ambiguous, or missing.
-
-Each row should represent one field. If any field cannot be clearly identified, include it with "null" in the "Field Value" column and provide an appropriate note in the "Notes" column.
-
-Ensure the table is well-structured, with columns clearly labeled and ready for Excel export. If any field is missing or unclear, indicate it appropriately with "null" or a relevant note.
-"""

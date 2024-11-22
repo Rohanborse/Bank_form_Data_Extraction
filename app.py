@@ -2,17 +2,20 @@ import os
 import json
 from pdf2image import convert_from_path
 import google.generativeai as genai
-from Log_Cred import local_login
+from Log_Cred import local_login, system_prompt, user_prompt
 
 # Configure Google Gemini API
 genai.configure(api_key="AIzaSyCP6JZiT1SCjT7d0R1WHwS6mt7BO3btvcs")
 
 MODEL_CONFIG = {
-    "temperature": 0.2,
-    "top_p": 1,
-    "top_k": 32,
-    "max_output_tokens": 4096,
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "max_output_tokens": 2048,
+    "presence_penalty": 0.3,
+    "frequency_penalty": 0.3
 }
+
 
 # Gemini model configuration
 model = genai.GenerativeModel(model_name="gemini-1.5-flash",
@@ -67,50 +70,60 @@ def gemini_output(image_path, system_prompt, user_prompt):
         return ""
 
 
-# Main function to process all pages and consolidate results
-def process_pdf(pdf_path, system_prompt, user_prompt):
-    """Extract data from all pages of a PDF and consolidate into a single JSON."""
-    image_paths = pdf_to_image(pdf_path)
-    consolidated_data = {}
+# Main function to process all files (PDF and images) and consolidate results
+def process_files(file_paths, system_prompt, user_prompt):
+    """Extract data from provided files (PDF or images) and consolidate into a single JSON."""
+    consolidated_data = {}  # Use a dictionary to create a single JSON structure
 
-    for page_number, image_path in enumerate(image_paths):
-        print(f"Processing page {page_number + 1}...")
-        output_json = gemini_output(image_path, system_prompt, user_prompt)
-        try:
-            page_data = json.loads(output_json)
-            consolidated_data[f"page_{page_number + 1}"] = page_data
-        except json.JSONDecodeError as e:
-            print(f"Error parsing JSON for page {page_number + 1}: {e}")
-            consolidated_data[f"page_{page_number + 1}"] = {"error": "Failed to extract data"}
+    for file_path in file_paths:
+        print(f"Processing file: {file_path}...")
+
+        if file_path.lower().endswith('.pdf'):
+            # If it's a PDF, convert to images first
+            image_paths = pdf_to_image(file_path)
+            pdf_data = []  # Temporary list to hold data for this PDF
+            for page_number, image_path in enumerate(image_paths):
+                print(f"Processing PDF page {page_number + 1}...")
+                output_json = gemini_output(image_path, system_prompt, user_prompt)
+                try:
+                    page_data = json.loads(output_json)
+                    pdf_data.append(page_data)
+                except json.JSONDecodeError as e:
+                    print(f"Error parsing JSON for page {page_number + 1}: {e}")
+                    pdf_data.append({"error": "Failed to extract data"})
+            consolidated_data[file_path] = pdf_data  # Store all PDF page data under its filename
+
+        elif file_path.lower().endswith(('.png', '.jpg', '.jpeg')):
+            # If it's an image, process it directly
+            output_json = gemini_output(file_path, system_prompt, user_prompt)
+            try:
+                image_data = json.loads(output_json)
+                consolidated_data[file_path] = image_data  # Use filename as key for image data
+            except json.JSONDecodeError as e:
+                print(f"Error parsing JSON for image {file_path}: {e}")
+                consolidated_data[file_path] = {"error": "Failed to extract data"}
+
+        else:
+            print(f"Unsupported file format: {file_path}. Skipping...")
 
     return consolidated_data
 
 
+
+
 # Example usage:
 if __name__ == "__main__":
-    if not local_login():
-        print("Login failed, cannot proceed.")
-        exit(1)
-    pdf_path = "Bank Use Case/Account Opening1st apge.pdf"  # Replace with actual PDF path
-    system_prompt = """
-        You are a specialist in extracting structured data from bank account opening forms and loan account forms.
-        These forms may include both printed and handwritten data. Your task is to accurately interpret all the content in the form, regardless of format or handwriting style.
-        Handle handwritten text carefully, considering variations in handwriting.
-        """
-    user_prompt = """
-    You are an intelligent assistant specialized in extracting structured data from bank account opening forms and loan account forms.
-    Given the text extracted from these forms, please extract **all identifiable fields** in JSON format. 
+    # if not local_login():
+    #     print("Login failed, cannot proceed.")
+    #     exit(1)
 
-    For each field, include the following:
-    - The field's label or description as it appears on the form.
-    - The corresponding value, as provided (whether printed or handwritten).
-    - Notes if any data is illegible or ambiguous.
+    # Prompt the user for file paths
+    print("Please enter the paths of the files you want to process (separated by commas):")
+    input_files = input().split(",")  # Get input from the user and split by commas
+    input_files = [file.strip() for file in input_files]  # Clean up any extra spaces around the file paths
 
-    Provide the extracted data in a structured and human-readable JSON format, preserving the hierarchy and relationships between fields if applicable.
-    If any field cannot be clearly identified, include it with a value of "null" and an appropriate note.
-    """
-
-    consolidated_results = process_pdf(pdf_path, system_prompt, user_prompt)
+    # Process the files
+    consolidated_results = process_files(input_files, system_prompt, user_prompt)
 
     # Save or display consolidated JSON
     output_file = "extracted_data.json"
