@@ -1,11 +1,13 @@
 import os
 import json
+
+import psycopg2
 from pdf2image import convert_from_path
 import google.generativeai as genai
 from Log_Cred import local_login, system_prompt, user_prompt
 
 # Configure Google Gemini API
-genai.configure(api_key="AIzaSyCP6JZiT1SCjT7d0R1WHwS6mt7BO3btvcs")
+genai.configure(api_key="AIzaSyC0-mdLaPgzxEmxQVK71SH4MxXjIAB6SqM")
 
 MODEL_CONFIG = {
     "temperature": 0.7,
@@ -28,6 +30,46 @@ model = genai.GenerativeModel(model_name="gemini-1.5-flash",
                                   {"category": "HARM_CATEGORY_DANGEROUS_CONTENT", "threshold": "BLOCK_MEDIUM_AND_ABOVE"}
                               ])
 
+DB_CONFIG = {
+    "host": "157.20.51.93",          # Change this to your database host
+    "database": "adm_db",  # Replace with your database name
+    "user": "postgres",          # Replace with your username
+    "password": "Vikas$7!5&v^ate@",  # Replace with your password
+    "port": 9871                  # Default PostgreSQL port
+}
+
+
+def insert_json_to_db(json_data):
+    """
+    Insert JSON data into the database using a stored procedure.
+    :param json_data: JSON data to pass to the stored procedure.
+    """
+    try:
+        # Connect to the database
+        conn = psycopg2.connect(**DB_CONFIG)
+        cursor = conn.cursor()
+
+        # Convert JSON to string for insertion
+        json_str = json.dumps(json_data)
+
+        # Call the stored procedure
+        cursor.execute("SELECT * FROM f_insert_bank_application_data(%s);", (json_str,))
+
+        # Commit the transaction
+        conn.commit()
+
+        # Fetch and print the result (optional)
+        result = cursor.fetchall()
+        print("Stored Procedure Result:", result)
+
+    except psycopg2.Error as e:
+        print(f"Database error: {e}")
+    finally:
+        # Close the connection
+        if cursor:
+            cursor.close()
+        if conn:
+            conn.close()
 
 # PDF to Image Conversion
 def pdf_to_image(pdf_path, output_folder="uploads"):
@@ -131,3 +173,5 @@ if __name__ == "__main__":
         json.dump(consolidated_results, f, indent=4)
 
     print(f"Data extracted and saved to {output_file}.")
+    insert_json_to_db(consolidated_results)
+    print("Data saved in Data Base")
